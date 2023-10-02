@@ -316,13 +316,13 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
                     </shadow>
                 </value>
             </block>
-            <block id="${targetId}_switchcostumeto" type="looks_switchcostumeto">
+            <block type="looks_switchcostumeto">
                 <value name="COSTUME">
                     <shadow type="text">
                         <field name="TEXT">costume1</field>
                     </shadow>
                 <value/>
-            <block>
+            </block>
             <block type="looks_nextcostume"/>
             <block type="looks_previouscostume"/>
             <block type="looks_switchbackdropto">
