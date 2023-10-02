@@ -406,6 +406,21 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
                 </value>
             </block>
             ${blockSeparator}
+            <block type="looks_setVertTransform">
+                <value name="PERCENT">
+                    <shadow type="math_number">
+                        <field name="NUM">0</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="looks_setHorizTransform">
+                <value name="PERCENT">
+                    <shadow type="math_number">
+                        <field name="NUM">0</field>
+                    </shadow>
+                </value>
+            </block>
+            ${blockSeparator}
             <block type="looks_gotofrontback"/>
             <block type="looks_goforwardbackwardlayers">
                 <value name="NUM">
@@ -866,7 +881,6 @@ const sensing = function (isInitialSetup, isStage) {
         `}
         ${blockSeparator}
         <block type="sensing_loud"/>
-        ${blockSeparator}
         <block id="loudness" type="sensing_loudness"/>
         ${blockSeparator}
         <block id="timer" type="sensing_timer"/>
