@@ -58,7 +58,7 @@ const motion = function (isInitialSetup, isStage, targetId) {
                 </shadow>
             </value>
         </block>
-        ${blockSeperator}
+        ${blockSeparator}
         <block type="motion_goto">
             <value name="TO">
                 <shadow type="motion_goto_menu">
