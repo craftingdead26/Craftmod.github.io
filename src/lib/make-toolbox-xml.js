@@ -316,13 +316,6 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
                     </shadow>
                 </value>
             </block>
-            <block type="looks_switchcostumeto">
-                <value name="COSTUME">
-                    <shadow type="text">
-                        <field name="TEXT">costume1</field>
-                    </shadow>
-                <value/>
-            </block>
             <block type="looks_nextcostume"/>
             <block type="looks_previouscostume"/>
             <block type="looks_switchbackdropto">
