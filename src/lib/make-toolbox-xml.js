@@ -322,7 +322,7 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
                         <field name="TEXT">costume1</field>
                     </shadow>
                 <value/>
-            </block>
+            <block>
             <block type="looks_nextcostume"/>
             <block type="looks_previouscostume"/>
             <block type="looks_switchbackdropto">
