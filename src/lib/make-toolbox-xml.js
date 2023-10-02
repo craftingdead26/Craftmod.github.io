@@ -570,11 +570,6 @@ const events = function (isInitialSetup, isStage) {
             <block type="event_whenstageclicked"/>
         ` : `
             <block type="event_whenthisspriteclicked"/>
-            <block type="event_whentouchingobject"/>
-                <value name="TOUCHINGOBJECTMENU">
-                    <shadow type="sensing_touchingobjectmenu"/>
-                </value>
-            </block>
         `}
         <block type="event_whenbackdropswitchesto">
         </block>
