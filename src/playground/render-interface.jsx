@@ -69,7 +69,7 @@ const handleClickAddonSettings = () => {
 
 const messages = defineMessages({
     defaultTitle: {
-        defaultMessage: 'A mod of TurboWarp',
+        defaultMessage: 'A mod of Penguinmod',
         description: 'Title of homepage',
         id: 'tw.guiDefaultTitle'
     }
@@ -115,8 +115,8 @@ const Footer = () => (
             <div className={styles.footerText}>
                 <FormattedMessage
                     // eslint-disable-next-line max-len
-                    defaultMessage="PenguinMod and TurboWarp are not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
-                    description="Disclaimer that PenguinMod and TurboWarp are not connected to Scratch"
+                    defaultMessage="Dinosaurmod, PenguinMod and TurboWarp are not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
+                    description="Disclaimer that Dinosaurmod, PenguinMod and TurboWarp are not connected to Scratch"
                     id="tw.footer.disclaimer"
                 />
             </div>
@@ -339,7 +339,7 @@ class Interface extends React.Component {
                                 <p>
                                     <FormattedMessage
                                         // eslint-disable-next-line max-len
-                                        defaultMessage="PenguinMod is a mod of TurboWarp to add new blocks and features either in extensions or in PenguinMod's main toolbox. TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by choosing an uploaded project below or making your own in the editor."
+                                        defaultMessage="Dinosaur is a mod of Penguinmod that is planned to add new blocks and features either in extensions or in Dinosaurmod's main toolbox. TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by choosing an uploaded project below or making your own in the editor."
                                         description="Description of PenguinMod and TurboWarp"
                                         id="tw.home.description"
                                     />
