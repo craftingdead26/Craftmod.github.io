@@ -59,6 +59,8 @@ const motion = function (isInitialSetup, isStage, targetId) {
             </value>
         </block>
         ${blockSeparator}
+        <block type="motion_mutatorCheckboxTest"></block>
+        ${blockSeperator}
         <block type="motion_goto">
             <value name="TO">
                 <shadow type="motion_goto_menu">
