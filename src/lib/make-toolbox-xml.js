@@ -488,6 +488,8 @@ const sound = function (isInitialSetup, isStage, targetId, soundName) {
         <block type="sound_playallsounds"/>
         <block type="sound_stopallsounds"/>
         ${blockSeparator}
+        <block type="sound_sounds_menu"/>
+        ${blockSeparator}
         <block id="${targetId}_sound_set_stop_fadeout_to" type="sound_set_stop_fadeout_to">
             <value name="VALUE">
                 <shadow type="math_number">
@@ -1321,8 +1323,6 @@ const operators = function (isInitialSetup) {
                 </shadow>
             </value>
         </block>
-        ${blockSeparator}
-        <block type="operators_expandablejoininputs"></block>
         ${blockSeparator}
         <block type="operator_stringify">
             <value name="ONE">
