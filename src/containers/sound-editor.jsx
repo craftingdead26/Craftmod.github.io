@@ -523,7 +523,7 @@ class SoundEditor extends React.Component {
         menu.textarea.append(valuePitch);
         menu.textarea.append(valueVolume);
         const previewButton = document.createElement("button");
-        previewButton.style = "font-weight: bold;color: white;border-radius: 1000px;width: 46px;margin-right: 28px;height: 46px;border-style: none;background: #00c3ff;";
+        previewButton.style = "font-weight: bold;color: white;border-radius: 1000px;width: 46px;margin-right: 28px;height: 46px;border-style: none;background: #76fa02;";
         previewButton.innerHTML = "Play";
         menu.textarea.append(previewButton);
         // playing audio
