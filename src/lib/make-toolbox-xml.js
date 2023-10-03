@@ -335,6 +335,13 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
                     </shadow>
                 </value>
             </block>
+            <block type="looks_switchbackdropto">
+                <value name="BACKDROP">
+                    <shadow type="text">
+                        <field name="TEXT">backdrop1</field>
+                    </shadow>
+                </value>
+            </block>
             <block type="looks_switchbackdroptoandwait">
                 <value name="BACKDROP">
                     <shadow type="looks_backdrops">
@@ -375,6 +382,13 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
                 <value name="BACKDROP">
                     <shadow type="looks_backdrops">
                         <field name="BACKDROP">${backdropName}</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="looks_switchbackdropto">
+                <value name="BACKDROP">
+                    <shadow type="text">
+                        <field name="TEXT">backdrop1</field>
                     </shadow>
                 </value>
             </block>
@@ -496,6 +510,13 @@ const sound = function (isInitialSetup, isStage, targetId, soundName) {
             <value name="SOUND_MENU">
                 <shadow type="sound_sounds_menu">
                     <field name="SOUND_MENU">${soundName}</field>
+                </shadow>
+            </value>
+        </block>
+        <block id="${targetId}_sound_playuntildone" type="sound_playuntildone">
+            <value name="SOUND_MENU">
+                <shadow type="text">
+                    <field name="TEXT">Pop</field>
                 </shadow>
             </value>
         </block>
