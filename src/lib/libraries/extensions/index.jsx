@@ -194,13 +194,13 @@ const menuItems = [
         featured: true
     },
     {
-        name: '3D Physics',
-        extensionId: 'fr3d',
-        iconURL: fr3dPhysicsExtensionIcon,
+        name: '3D',
+        extensionId: 'jg3d',
+        iconURL: jg3dExtensionIcon,
         tags: ['penguinmod'],
-        customInsetColor: '#D066FE',
-        insetIconURL: fr3dPhysicsInsetExtensionIcon,
-        description: 'Physics for the 3D extension.',
+        customInsetColor: '#B200FF',
+        insetIconURL: jg3dInsetExtensionIcon,
+        description: 'Use the magic of 3D to spice up your project.',
         featured: true
     },
     {
