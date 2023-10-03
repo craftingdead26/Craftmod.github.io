@@ -559,9 +559,6 @@ export default async function ({ addon, console, msg }) {
         {
           opcode: "event_whentouchingobject",
         },
-        {
-          opcode: "sensing_objecttouchingobject"
-        },
         noopSwitch,
       ];
       blockSwitches["sensing_touchingcolor"] = [
