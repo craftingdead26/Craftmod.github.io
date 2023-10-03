@@ -354,6 +354,12 @@ export default async function ({ addon, console, msg }) {
     }
 
     if (addon.settings.get("event")) {
+      blockSwitches["event_whentouchingobject"] = [
+        {
+          opcode: "sensing_touchingobject",
+        },
+        noopSwitch,
+      ];
       blockSwitches["event_broadcast"] = [
         noopSwitch,
         {
@@ -402,6 +408,18 @@ export default async function ({ addon, console, msg }) {
       blockSwitches["control_wait_until"] = [
         {
           opcode: "control_repeat_until",
+        },
+        noopSwitch,
+      ];
+      blockSwitches["control_create_clones_of"] = [
+        {
+          opcode: "control_delete_clones_of",
+        },
+        noopSwitch,
+      ];
+      blockSwitches["control_delete_clones_of"] = [
+        {
+          opcode: "control_create_clones_of",
         },
         noopSwitch,
       ];
@@ -534,6 +552,15 @@ export default async function ({ addon, console, msg }) {
       blockSwitches["sensing_mousey"] = [
         {
           opcode: "sensing_mousex",
+        },
+        noopSwitch,
+      ];
+      blockSwitches["sensing_touchingobject"] = [
+        {
+          opcode: "event_whentouchingobject",
+        },
+        {
+          opcode: "sensing_objecttouchingobject"
         },
         noopSwitch,
       ];
