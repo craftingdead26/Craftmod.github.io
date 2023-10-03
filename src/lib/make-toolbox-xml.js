@@ -540,6 +540,13 @@ const sound = function (isInitialSetup, isStage, targetId, soundName) {
                 </shadow>
             </value>
         </block>
+        <block id="${targetId}_sound_play" type="sound_play">
+            <value name="SOUND_MENU">
+                <shadow type="text">
+                    <field name="TEXT">Pop</field>
+                </shadow>
+            </value>
+        </block>
         <block id="${targetId}_sound_play_at_seconds" type="sound_play_at_seconds">
             <value name="VALUE">
                 <shadow type="math_number">
