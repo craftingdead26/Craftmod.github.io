@@ -721,6 +721,13 @@ const control = function (isInitialSetup, isStage) {
                     <shadow type="control_create_clone_of_menu"/>
                 </value>
             </block>
+            <block type="control_delete_clones_of">
+                <value name="CLONE_OPTION">
+                    <shadow type="text">
+                        <field name="TEXT">_myself_</field>
+                    </shadow>
+                </value>
+            </block>
             <block type="control_delete_this_clone"/>
         `}
         ${LazyScratchBlocks.isNameUrMom() ? '<block type="your_mom"/>' : ''}
@@ -750,13 +757,6 @@ const sensing = function (isInitialSetup, isStage) {
             <block type="sensing_touchingcolor">
                 <value name="COLOR">
                     <shadow type="colour_picker"/>
-                </value>
-            </block>
-            <block type="sensing_touchingcolor">
-                <value name="VALUE">
-                    <shadow type="text">
-                        <field name="TEXT">#FF0000</field>
-                    </shadow>
                 </value>
             </block>
             <block type="sensing_coloristouchingcolor">
