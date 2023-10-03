@@ -12,20 +12,20 @@ $ui-transparent: hsla(0, 100%, 100%, 0); /* 25% transparent version of ui-white 
 $ui-black-transparent-default: hsla(0, 0%, 0%, 0.15); /* 15% transparent version of black */
 $ui-black-transparent: var(--ui-black-transparent, $ui-black-transparent-default);
 
-$text-primary: var(--text-primary, hsla(225, 15%, 40%, 1)); /* #575E75 */
+$text-primary: var(--text-primary, hsla(92, 18%, 42%, 1)); /* #575E75 */
 $text-primary-transparent: hsla(225, 15%, 40%, 0.75);
 
 $motion-primary: hsla(92, 91%, 53%, 1); /* #00c3ff */
-$motion-tertiary: hsla(203, 100%, 39%, 1); /* #007bc7 */
-$motion-transparent: hsla(194, 100%, 50%, 0.35); /* 35% transparent version of motion-primary */
-$motion-light-transparent: hsla(203, 100%, 39%, 0.15); /* 15% transparent version of motion-primary */
+$motion-tertiary: hsla(92, 80%, 43%, 1); /* #007bc7 */
+$motion-transparent: hsla(92, 92%, 53%, 0.35); /* 35% transparent version of motion-primary */
+$motion-light-transparent: hsla(92, 80%, 43%, 0.15); /* 15% transparent version of motion-primary */
 
 /* opt-in theme overrides */
 $motion-primary-dark: hsla(92, 91%, 53%, 1); /*top bar color when in dark mode*/
-$ui-primary-light: hsla(215, 100%, 95%, 1);
-$ui-secondary-light: hsla(215, 75%, 95%, 1);
+$ui-primary-light: hsla(92, 76%, 79%, 1);
+$ui-secondary-light: hsla(92, 73%, 82%, 1);
 $ui-tertiary-light: hsla(215, 50%, 90%, 1);
-$text-primary-light: hsla(225, 15%, 40%, 1);
+$text-primary-light: hsla(92, 18%, 42%, 1);
 
 $red-primary: hsla(92, 91%, 53%, 1); /* #00c3ff */
 $red-tertiary: hsla(92, 80%, 43%, 1); /* #007bc7 */
