@@ -724,6 +724,14 @@ const menuItems = [
         twDeveloper: 'GarboMuffin'
     },
     {
+        name: 'the doo doo extension',
+        extensionId: 'jgDooDoo',
+        iconURL: defaultExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'a joke extension.',
+        featured: true
+    },
+    {
         name: 'Scratch Authentication',
         extensionId: 'jgScratchAuthenticate',
         iconURL: jgScratchAuthExtensionIcon,
