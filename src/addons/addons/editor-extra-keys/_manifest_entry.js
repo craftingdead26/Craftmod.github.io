@@ -27,6 +27,11 @@ const manifest = {
       "type": "warning",
       "text": "The \"TurboWarp keys\" will only work in TurboWarp, not in Scratch.",
       "id": "twKeysWarn"
+    },
+    {
+      "type": "warning",
+      "text": "The \"Joke keys\" don't work at all, it's just joke blocks.",
+      "id": "jokeKeysWarn"
     }
   ],
   "settings": [
@@ -48,6 +53,13 @@ const manifest = {
       "dynamic": true,
       "name": "Show TurboWarp keys",
       "id": "twKeys",
+      "type": "boolean",
+      "default": false
+    },
+    {
+      "dynamic": true,
+      "name": "Show Joke keys",
+      "id": "jokeKeys",
       "type": "boolean",
       "default": false
     }

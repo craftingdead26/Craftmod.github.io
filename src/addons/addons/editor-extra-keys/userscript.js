@@ -74,17 +74,35 @@ export default async function ({ addon, msg }) {
           ]
         );
       }
+      if (addon.settings.get("jokeKeys")) {
+        keys.push(
+          ...[
+            ["windows", "windows"],
+            ["ä", "ä"],
+            ["ö", "ö"],
+            ["ü", "ü"],
+            ["bombastic side eye", "bombastic side eye"],
+            ["trolololo", "trolololo"],
+            ["intact", "intact"],
+            ["ip", "ip"],
+            ["spell icup", "spell icup"],
+            ["hmmm", "hmmm"],
+            ["joke", "joke"],
+            ["backyardigans", "backyardigans"],
+          ]
+        );
+      }
     }
     return keys;
   }
 
-  for (const opcode of ["sensing_keyoptions", "event_whenkeypressed"]) {
+  for (const opcode of ["sensing_keyoptions", "event_whenkeypressed", "event_whenkeyhit"]) {
     const block = ScratchBlocks.Blocks[opcode];
     const originalInit = block.init;
     block.init = function (...args) {
       const originalJsonInit = this.jsonInit;
       this.jsonInit = function (obj) {
-        appendKeys(obj.args0[0].options, opcode === "event_whenkeypressed");
+        appendKeys(obj.args0[0].options, opcode === "event_whenkeypressed", "event_whenkeyhit");
         return originalJsonInit.call(this, obj);
       };
       return originalInit.call(this, ...args);
@@ -97,7 +115,7 @@ export default async function ({ addon, msg }) {
     if (workspace && flyout) {
       const allBlocks = [...workspace.getAllBlocks(), ...flyout.getWorkspace().getAllBlocks()];
       for (const block of allBlocks) {
-        if (block.type !== "event_whenkeypressed" && block.type !== "sensing_keyoptions") {
+        if (block.type !== "event_whenkeypressed" && block.type !== "sensing_keyoptions" && block.type !== "event_whenkeyhit") {
           continue;
         }
         const input = block.inputList[0];
@@ -110,7 +128,7 @@ export default async function ({ addon, msg }) {
         }
         field.menuGenerator_ = appendKeys(
           defaultKeys ? [...defaultKeys] : field.menuGenerator_,
-          block.type === "event_whenkeypressed"
+          block.type === "event_whenkeypressed", "event_whenkeyhit"
         );
       }
     }
