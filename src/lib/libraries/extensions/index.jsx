@@ -194,6 +194,16 @@ const menuItems = [
         featured: true
     },
     {
+        name: '3D Physics',
+        extensionId: 'fr3d',
+        iconURL: fr3dPhysicsExtensionIcon,
+        tags: ['penguinmod'],
+        customInsetColor: '#D066FE',
+        insetIconURL: fr3dPhysicsInsetExtensionIcon,
+        description: 'Physics for the 3D extension.',
+        featured: true
+    },
+    {
         name: 'Animated Text',
         extensionId: 'text',
         iconURL: animatedTextIconURL,
@@ -291,6 +301,26 @@ const menuItems = [
         featured: true
     },
     {
+        name: (
+            <FormattedMessage
+                defaultMessage="OOP"
+                description="Name of OOP extension"
+                id="jwStructs.jwStructsExtension.name"
+            />
+        ),
+        extensionId: 'jwStructs',
+        tags: ['penguinmod'],
+        iconURL: jwStructsExtensionIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="OOP blocks. OOp is a programming paradigm that uses objects and their interactions to design applications and computer programs."
+                description="Description of OOP extension"
+                id="jwStructs.jwStructsExtension.description"
+            />
+        ),
+        featured: true
+    },
+    {
         name: 'Stage Camera',
         extensionId: 'pmCamera',
         iconURL: pmCameraExtensionIcon,
@@ -303,6 +333,14 @@ const menuItems = [
             />
         ),
         credits: 'Inspired by⠀⠀⠀⠀⠀⠀ DT-is-not-available',
+        featured: true
+    },
+    {
+        name: 'Legacy Files',
+        extensionId: 'jgFiles',
+        iconURL: defaultExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'Basic blocks for files.',
         featured: true
     },
     {
@@ -999,7 +1037,7 @@ if (IsLocal || IsLiveTests) {
             iconURL: jwStructsExtensionIcon,
             description: (
                 <FormattedMessage
-                    defaultMessage="Removed from list. OOP blocks. OOp is a programming paradigm that uses objects and their interactions to design applications and computer programs."
+                    defaultMessage="OOP blocks. OOp is a programming paradigm that uses objects and their interactions to design applications and computer programs."
                     description="Description of OOP extension"
                     id="jwStructs.jwStructsExtension.description"
                 />
