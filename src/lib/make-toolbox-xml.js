@@ -753,11 +753,11 @@ const sensing = function (isInitialSetup, isStage) {
                 </value>
             </block>
             <block type="sensing_touchingcolor">
-                <value name="TEXT"
+                <value name="ITEM">
                     <shadow type="text">
                         <field name="TEXT">#FF0000</field>
                     </shadow>
-                </value
+                </value>
             </block>
             <block type="sensing_coloristouchingcolor">
                 <value name="COLOR">
