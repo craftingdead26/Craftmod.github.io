@@ -363,7 +363,7 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
                 </value>
             </block>
             <block id="${targetId}_switchcostumeto" type="looks_switchcostumeto">
-                <value name="TEXT">
+                <value name="COSTUME">
                     <shadow type="text">
                         <field name="TEXT">costume1</field>
                     </shadow>
@@ -793,7 +793,7 @@ const control = function (isInitialSetup, isStage) {
                     </shadow>
                 </value>
             </block>
-            <block type="control_clear_counter">
+            <block type="control_clear_counter"/>
         `}
         ${LazyScratchBlocks.isNameUrMom() ? '<block type="your_mom"/>' : ''}
         ${categorySeparator}
