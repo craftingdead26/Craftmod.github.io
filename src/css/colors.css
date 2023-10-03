@@ -15,19 +15,19 @@ $ui-black-transparent: var(--ui-black-transparent, $ui-black-transparent-default
 $text-primary: var(--text-primary, hsla(225, 15%, 40%, 1)); /* #575E75 */
 $text-primary-transparent: hsla(225, 15%, 40%, 0.75);
 
-$motion-primary: hsla(194, 100%, 50%, 1); /* #00c3ff */
+$motion-primary: hsla(92, 91%, 53%, 1); /* #00c3ff */
 $motion-tertiary: hsla(203, 100%, 39%, 1); /* #007bc7 */
 $motion-transparent: hsla(194, 100%, 50%, 0.35); /* 35% transparent version of motion-primary */
 $motion-light-transparent: hsla(203, 100%, 39%, 0.15); /* 15% transparent version of motion-primary */
 
 /* opt-in theme overrides */
-$motion-primary-dark: #009CCC; /*top bar color when in dark mode*/
+$motion-primary-dark: hsla(92, 91%, 53%, 1); /*top bar color when in dark mode*/
 $ui-primary-light: hsla(215, 100%, 95%, 1);
 $ui-secondary-light: hsla(215, 75%, 95%, 1);
 $ui-tertiary-light: hsla(215, 50%, 90%, 1);
 $text-primary-light: hsla(225, 15%, 40%, 1);
 
-$red-primary: hsla(194, 100%, 50%, 1); /* #00c3ff */
+$red-primary: hsla(92, 91%, 53%, 1); /* #00c3ff */
 $red-tertiary: hsla(203, 100%, 39%, 1); /* #007bc7 */
 
 $sound-primary: hsla(300, 53%, 60%, 1); /* #CF63CF */

@@ -411,18 +411,6 @@ export default async function ({ addon, console, msg }) {
         },
         noopSwitch,
       ];
-      blockSwitches["control_create_clones_of"] = [
-        {
-          opcode: "control_delete_clones_of",
-        },
-        noopSwitch,
-      ];
-      blockSwitches["control_delete_clones_of"] = [
-        {
-          opcode: "control_create_clones_of",
-        },
-        noopSwitch,
-      ];
     }
 
     if (addon.settings.get("operator")) {
