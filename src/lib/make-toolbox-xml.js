@@ -729,6 +729,17 @@ const control = function (isInitialSetup, isStage) {
                 </value>
             </block>
             <block type="control_delete_this_clone"/>
+            ${blockSeparator}
+            <block type="control_get_counter"/>
+            <block type="control_incr_counter"/>
+            <block type="control_decr_counter"/>
+            <block type="control_set_counter">
+                <value name="VALUE">
+                    <shadow type="math_number">
+                        <field name="NUM">10</field>
+                    </shadow>
+                </value>
+            </block>
         `}
         ${LazyScratchBlocks.isNameUrMom() ? '<block type="your_mom"/>' : ''}
         ${categorySeparator}
