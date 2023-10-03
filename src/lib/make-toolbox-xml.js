@@ -58,6 +58,40 @@ const motion = function (isInitialSetup, isStage, targetId) {
                 </shadow>
             </value>
         </block>
+        <block type="motion_turnrightaroundxy">
+            <value name="DEGREES">
+                <shadow type="math_number">
+                    <field name="NUM">15</field>
+                </shadow>
+            </value>
+            <value name="X">
+                <shadow type="math_number">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="Y">
+                <shadow type="math_number">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="motion_turnleftaroundxy">
+            <value name="DEGREES">
+                <shadow type="math_number">
+                    <field name="NUM">15</field>
+                </shadow>
+            </value>
+            <value name="X">
+                <shadow type="math_number">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="Y">
+                <shadow type="math_number">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+        </block>
         ${blockSeparator}
         <block type="motion_goto">
             <value name="TO">
@@ -178,6 +212,18 @@ const motion = function (isInitialSetup, isStage, targetId) {
         <block type="motion_ifonspritebounce">
             <value name="SPRITE">
                 <shadow type="motion_pointtowards_menu"></shadow>
+            </value>
+        </block>
+        <block type="motion_ifonxybounce">
+            <value name="X">
+                <shadow type="math_number">
+                    <field name="NUM">10</field>
+                </shadow>
+            </value>
+            <value name="Y">
+                <shadow type="math_number">
+                    <field name="NUM">10</field>
+                </shadow>
             </value>
         </block>
         ${blockSeparator}
@@ -313,6 +359,13 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
                 <value name="COSTUME">
                     <shadow type="looks_costume">
                         <field name="COSTUME">${costumeName}</field>
+                    </shadow>
+                </value>
+            </block>
+            <block id="${targetId}_switchcostumeto" type="looks_switchcostumeto">
+                <value name="TEXT">
+                    <shadow type="text">
+                        <field name="TEXT">costume1</field>
                     </shadow>
                 </value>
             </block>
@@ -740,6 +793,7 @@ const control = function (isInitialSetup, isStage) {
                     </shadow>
                 </value>
             </block>
+            <block type="control_clear_counter">
         `}
         ${LazyScratchBlocks.isNameUrMom() ? '<block type="your_mom"/>' : ''}
         ${categorySeparator}
