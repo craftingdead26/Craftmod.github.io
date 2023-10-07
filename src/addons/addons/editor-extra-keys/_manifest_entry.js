@@ -30,7 +30,7 @@ const manifest = {
     },
     {
       "type": "warning",
-      "text": "The \"Joke keys\" don't work at all, it's just joke blocks.",
+      "text": "The \"Joke keys\" don't work at all, it's just joke keys.",
       "id": "jokeKeysWarn"
     }
   ],
