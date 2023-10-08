@@ -321,6 +321,15 @@ const menuItems = [
         featured: true
     },
     {
+        name: 'Graphics 2D',
+        extensionId: 'https://extensions.turbowarp.org/NOname-awa/graphics2d.js',
+        description: 'Blocks to compute lengths, angles, and areas in two dimensions.',
+        iconURL: 'https://extensions.turbowarp.org/images/NOname-awa/graphics2d.svg',
+        tags: ['turbowarp'],
+        extDeveloper: 'NOname-awa',
+        featured: true
+    },
+    {
         name: 'Stage Camera',
         extensionId: 'pmCamera',
         iconURL: pmCameraExtensionIcon,
@@ -549,6 +558,16 @@ const menuItems = [
         featured: true
     },
     {
+        name: 'Time',
+        extensionId: 'https://extensions.turbowarp.org/-SIPC-/time.js',
+        tags: ['turbowarp'],
+        iconURL: 'https://extensions.turbowarp.org/images/-SIPC-/time.svg',
+        insetIconURL: turbowarpIcon,
+        description: "Blocks for interacting with unix timestamps and other date strings.",
+        featured: true,
+        extDeveloper: '-SIPC-'
+    },
+    {
         name: 'Temporary Variables',
         extensionId: 'tempVars',
         iconURL: gsaTempVariablesExtensionIcon,
@@ -574,6 +593,16 @@ const menuItems = [
         description: 'Blocks for updating Scratch objects like the stage and sprites.',
         credits: 'TheShovel, showierdata9978',
         featured: true
+    },
+    {
+        name: 'Search Params',
+        extensionId: 'https://extensions.turbowarp.org/ZXMushroom63/searchApi.js',
+        tags: ['turbowarp'],
+        iconURL: 'https://extensions.turbowarp.org/images/ZXMushroom63/searchApi.svg',
+        insetIconURL: turbowarpIcon,
+        description: "Interact with URL search parameters: the part of the URL after a question mark.",
+        featured: true,
+        extDeveloper: 'ZXMushroom63'
     },
     {
         name: 'Storage',
@@ -634,6 +663,7 @@ const menuItems = [
         tags: ['dinosaurmod'],
         iconURL: defaultExtensionIcon,
         description: 'BETA! this extension might break sometimes.',
+        twDeveloper: 'Diseveled_cat',
         featured: true,
     },
     {
