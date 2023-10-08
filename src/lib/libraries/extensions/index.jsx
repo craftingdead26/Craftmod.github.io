@@ -358,9 +358,20 @@ const menuItems = [
         extensionId: 'https://extensions.turbowarp.org/veggiecan/LongmanDictionary.js',
         tags: ['turbowarp'],
         iconURL: 'https://extensions.turbowarp.org/images/veggiecan/LongmanDictionary.png',
+        insetIconURL: turbowarpIcon,
         description: "Get the definitions of words from the Longman Dictionary in your projects.",
         featured: true,
         extDeveloper: 'veggiecan0419'
+    },
+    {
+        name: 'Bitwise',
+        extensionId: 'https://extensions.turbowarp.org/bitwise.js',
+        iconURL: 'https://extensions.turbowarp.org/images/bitwise.svg',
+        insetIconURL: turbowarpIcon,
+        tags: ['turbowarp'],
+        description: 'Blocks that operate on the binary representation of numbers in computers.',
+        extDeveloper: 'TrueFantom',
+        featured: true
     },
     {
         name: 'Pen+',
@@ -451,6 +462,15 @@ const menuItems = [
         featured: true
     },
     {
+        name: 'Local Storage',
+        extensionId: 'https://extensions.turbowarp.org/local-storage.js',
+        iconURL: 'https://extensions.turbowarp.org/images/local-storage.svg',
+        insetIconURL: turbowarpIcon,
+        tags: ['turbowarp'],
+        description: 'Store data persistently. Like cookies, but better.',
+        featured: true
+    },
+    {
         name: 'Physics',
         extensionId: 'https://extensions.turbowarp.org/box2d.js',
         tags: ['turbowarp'],
@@ -478,6 +498,15 @@ const menuItems = [
         description: 'Apply visual effects to the entire stage.',
         extDeveloper: 'TheShovel',
         featured: true
+    },
+    {
+        name: 'Fetch',
+        extensionId: 'https://extensions.turbowarp.org/fetch.js',
+        tags: ['turbowarp'],
+        iconURL: 'https://extensions.turbowarp.org/images/fetch.svg',
+        insetIconURL: turbowarpIcon,
+        description: "Make requests to the broader internet.",
+        featured: true,
     },
     {
         name: 'Clones+',
@@ -526,6 +555,15 @@ const menuItems = [
         tags: ['penguinmod'],
         description: 'Create variables for use in one block stack. Useful to not clutter the variable list with variables you only use once.',
         credits: 'LilyMakesThings',
+        featured: true
+    },
+    {
+        name: 'RGB Channels',
+        extensionId: 'https://extensions.turbowarp.org/Longboost/color_channels.js',
+        iconURL: 'https://extensions.turbowarp.org/images/Longboost/color_channels.svg',
+        insetIconURL: turbowarpIcon,
+        tags: ['turbowarp'],
+        description: 'Only render or stamp certain RGB channels.',
         featured: true
     },
     {
@@ -627,6 +665,16 @@ const menuItems = [
         featured: true
     },
     {
+        name: 'Numerical Encoding',
+        extensionId: 'https://extensions.turbowarp.org/cs2627883/numericalencoding.js',
+        iconURL: 'https://extensions.turbowarp.org/images/cs2627883/numericalencoding.svg',
+        insetIconURL: turbowarpIcon,
+        tags: ['turbowarp'],
+        description: 'Encode strings as numbers for cloud variables.',
+        credits: 'cs2627883',
+        featured: true
+    },
+    {
         name: 'Odd Messages',
         extensionId: 'oddMessage',
         iconURL: silvxrcatOddMessagesExtensionIcon,
@@ -710,6 +758,15 @@ const menuItems = [
                 id="iygPerlin.iygPerlinExtension.description"
             />
         ),
+        featured: true
+    },
+    {
+        name: 'Sound Waves',
+        extensionId: 'https://extensions.penguinmod.site/extensions/SharkPool/Sound-Waves.js',
+        iconURL: 'https://extensions.penguinmod.site/images/SharkPool/Sound-Waves.svg',
+        tags: ['penguinmod'],
+        description: 'Make sounds with oscillators!',
+        credits: 'SharkPool',
         featured: true
     },
     {
