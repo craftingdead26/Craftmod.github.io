@@ -214,15 +214,6 @@ const menuItems = [
         featured: true
     },
     {
-        name: 'Face Sensing',
-        extensionId: 'face',
-        iconURL: 'https://lab.scratch.mit.edu/face/static/assets/a912219ef0d47411e94ba1fccb4ea7e2.png',
-        insetIconURL: 'https://lab.scratch.mit.edu/face/static/assets/64d1fe75e06baf41fb22d196d202b64c.svg',
-        tags: ['scratch'],
-        description: 'Make animated costumes and games that interact with your face.',
-        featured: true
-    },
-    {
         name: (
             <FormattedMessage
                 defaultMessage="Video Sensing"
