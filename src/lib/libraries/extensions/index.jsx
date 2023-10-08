@@ -489,7 +489,7 @@ const menuItems = [
         description: "Convert numbers between bases.",
         customInsetColor: '#E200CA',
         featured: true,
-        twDeveloper: 'TrueFantom'
+        extDeveloper: 'TrueFantom'
     },
     {
         name: 'Skins',
