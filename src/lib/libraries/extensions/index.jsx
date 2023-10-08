@@ -214,6 +214,15 @@ const menuItems = [
         featured: true
     },
     {
+        name: 'Face Sensing',
+        extensionId: 'face',
+        iconURL: 'https://lab.scratch.mit.edu/face/static/assets/a912219ef0d47411e94ba1fccb4ea7e2.png',
+        insetIconURL: 'https://lab.scratch.mit.edu/face/static/assets/64d1fe75e06baf41fb22d196d202b64c.svg',
+        tags: ['scratch'],
+        description: 'Make animated costumes and games that interact with your face.',
+        featured: true
+    },
+    {
         name: (
             <FormattedMessage
                 defaultMessage="Video Sensing"
@@ -338,7 +347,7 @@ const menuItems = [
     {
         name: 'Legacy Files',
         extensionId: 'jgFiles',
-        iconURL: defaultExtensionIcon,
+        iconURL: filesExtensionIcon,
         tags: ['penguinmod'],
         description: 'Basic blocks for files.',
         featured: true
@@ -352,6 +361,15 @@ const menuItems = [
         tags: ['turbowarp'],
         description: 'Blocks for reading and creating files.',
         featured: true
+    },
+    {
+        name: 'Longman Dictionary',
+        extensionId: 'https://extensions.turbowarp.org/veggiecan/LongmanDictionary.js',
+        tags: ['turbowarp'],
+        iconURL: 'https://extensions.turbowarp.org/images/veggiecan/LongmanDictionary.png',
+        description: "Get the definitions of words from the Longman Dictionary in your projects.",
+        featured: true,
+        extDeveloper: 'veggiecan0419'
     },
     {
         name: 'Pen+',
