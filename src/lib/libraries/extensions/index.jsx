@@ -529,6 +529,16 @@ const menuItems = [
         customInsetColor: '#ff4d4d'
     },
     {
+        name: 'Cast',
+        extensionId: 'https://extensions.turbowarp.org/Lily/Cast.js',
+        iconURL: 'https://extensions.turbowarp.org/images/Lily/Cast.svg',
+        insetIconURL: turbowarpIcon,
+        tags: ['turbowarp'],
+        description: 'Convert values between types.',
+        featured: true,
+        internetConnectionRequired: false,
+    },
+    {
         name: 'CloudLink',
         extensionId: 'https://extensions.turbowarp.org/cloudlink.js',
         tags: ['turbowarp'],
