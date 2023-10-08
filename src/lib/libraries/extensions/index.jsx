@@ -582,6 +582,13 @@ const menuItems = [
         internetConnectionRequired: false
     },
     {
+        name: 'ChatGPT',
+        extensionId: 'https://anonymous-cat1.github.io/WorkingTurboGPT/extension.js',
+        iconURL: defaultExtensionIcon,
+        description: 'BETA! this extension might not work.',
+        featured: true,
+    },
+    {
         name: 'LZ Compress',
         extensionId: 'shovellzcompresss',
         iconURL: theshovelLzCompressIcon,
