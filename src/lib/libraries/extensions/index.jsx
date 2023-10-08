@@ -584,6 +584,7 @@ const menuItems = [
     {
         name: 'ChatGPT',
         extensionId: 'https://anonymous-cat1.github.io/WorkingTurboGPT/extension.js',
+        tags: ['dinosaurmod'],
         iconURL: defaultExtensionIcon,
         description: 'BETA! this extension might break sometimes.',
         featured: true,

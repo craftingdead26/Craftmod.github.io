@@ -141,6 +141,11 @@ export default defineMessages({
         description: 'Tag for filtering a library for guns',
         id: 'gui.libraryTags.guns'
     },
+    dinosaurmod: {
+        defaultMessage: 'DinosaurMod',
+        description: 'Tag for filtering a library by DinosaurMod',
+        id: 'gui.libraryTags.dinosaurmod'
+    },
     penguinmod: {
         defaultMessage: 'PenguinMod',
         description: 'Tag for filtering a library by PenguinMod',
