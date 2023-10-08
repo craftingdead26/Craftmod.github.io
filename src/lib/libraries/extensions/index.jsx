@@ -539,6 +539,17 @@ const menuItems = [
         internetConnectionRequired: false,
     },
     {
+        name: "All Menus",
+        extensionId: 'https://extensions.turbowarp.org/Lily/AllMenus.js',
+        iconURL: 'https://extensions.turbowarp.org/images/Lily/AllMenus.svg',
+        insetIconURL: turbowarpIcon,
+        tags: ['turbowarp'],
+        description: 'Special category with most menus from Scratch categories.',
+        featured: true,
+        extDeveloper: 'LilyMakesThings',
+        internetConnectionRequired: false,
+    },
+    {
         name: 'CloudLink',
         extensionId: 'https://extensions.turbowarp.org/cloudlink.js',
         tags: ['turbowarp'],
