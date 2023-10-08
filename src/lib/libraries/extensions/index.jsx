@@ -416,6 +416,15 @@ const menuItems = [
         featured: true
     },
     {
+        name: 'Cats',
+        extensionId: 'https://extensions.penguinmod.site/extensions/Gen1x/CATS.js',
+        tags: ['penguinmod'],
+        iconURL: 'https://extensions.penguinmod.site/images/Gen1x/cats.png',
+        description: "Blocks related to cats.",
+        featured: true,
+        extDeveloper: 'G1nX',
+    },
+    {
         name: 'JSON',
         extensionId: 'jgJSON',
         iconURL: jgJSONExtensionIcon,
