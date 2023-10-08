@@ -472,6 +472,17 @@ const menuItems = [
         twDeveloper: 'LilyMakesThings'
     },
     {
+        name: 'Base',
+        extensionId: 'https://extensions.turbowarp.org/true-fantom/base.js',
+        tags: ['turbowarp'],
+        iconURL: 'https://extensions.turbowarp.org/images/true-fantom/base.svg',
+        insetIconURL: turbowarpIcon,
+        description: "Convert numbers between bases.",
+        customInsetColor: '#E200CA',
+        featured: true,
+        twDeveloper: 'TrueFantom'
+    },
+    {
         name: 'Skins',
         extensionId: 'https://extensions.turbowarp.org/Lily/Skins.js',
         tags: ['turbowarp'],
@@ -536,6 +547,7 @@ const menuItems = [
         tags: ['turbowarp'],
         description: 'Convert values between types.',
         featured: true,
+        extDeveloper: 'LilyMakesThings',
         internetConnectionRequired: false,
     },
     {
@@ -544,7 +556,7 @@ const menuItems = [
         iconURL: 'https://extensions.turbowarp.org/images/Lily/AllMenus.svg',
         insetIconURL: turbowarpIcon,
         tags: ['turbowarp'],
-        description: 'Special category with most menus from Scratch categories.',
+        description: 'Special category with all menus from every Scratch category including extensions, whenever you add one to the toolbox.',
         featured: true,
         extDeveloper: 'LilyMakesThings',
         internetConnectionRequired: false,
