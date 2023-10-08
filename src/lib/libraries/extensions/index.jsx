@@ -422,7 +422,7 @@ const menuItems = [
         iconURL: 'https://extensions.penguinmod.site/images/Gen1x/cats.png',
         description: "Blocks related to cats.",
         featured: true,
-        twDeveloper: 'G1nX',
+        extDeveloper: 'G1nX',
     },
     {
         name: 'JSON',
@@ -585,7 +585,7 @@ const menuItems = [
         name: 'ChatGPT',
         extensionId: 'https://anonymous-cat1.github.io/WorkingTurboGPT/extension.js',
         iconURL: defaultExtensionIcon,
-        description: 'BETA! this extension might not work.',
+        description: 'BETA! this extension might break sometimes.',
         featured: true,
     },
     {
