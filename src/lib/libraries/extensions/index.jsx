@@ -422,7 +422,7 @@ const menuItems = [
         iconURL: 'https://extensions.penguinmod.site/images/Gen1x/cats.png',
         description: "Blocks related to cats.",
         featured: true,
-        extDeveloper: 'G1nX',
+        twDeveloper: 'G1nX',
     },
     {
         name: 'JSON',
