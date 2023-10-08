@@ -618,6 +618,17 @@ const menuItems = [
         extDeveloper: 'silvxrcat'
     },
     {
+        name: 'Recording',
+        extensionId: 'https://extensions.penguinmod.site/extensions/SharkPool/Recording.js',
+        tags: ['penguinmod'],
+        iconURL: 'https://extensions.penguinmod.site/images/SharkPool/Recording.svg',
+        description: 'Record your voice while you run your projects!',
+        featured: true,
+        customInsetColor: '#7B9149',
+        extDeveloper: 'SharkPool',
+        internetConnectionRequired: false
+    },
+    {
         name: 'HTML iframe Elements',
         extensionId: 'jgIframe',
         iconURL: jgIframeExtensionIcon,
