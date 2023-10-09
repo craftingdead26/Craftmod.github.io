@@ -383,16 +383,6 @@ const menuItems = [
         featured: true
     },
     {
-        name: 'AdaBrowser',
-        extensionId: 'adabrowser',
-        iconURL: 'https://www.adacraft.org/studio/static/assets/40998229311219c2117265d5e4bd9745.png',
-        tags: ['other_mods'],
-        customInsetColor: '#B200FF',
-        insetIconURL: turbowarpIcon,
-        description: 'Interact with the web browser, orginally in Adacraft.',
-        featured: true
-    },
-    {
         name: 'Pen+',
         extensionId: 'https://extensions.penguinmod.site/extensions/ObviousAlexC/PenPlus.js',
         tags: ['categoryexpansion'],
