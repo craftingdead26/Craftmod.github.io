@@ -151,6 +151,11 @@ export default defineMessages({
         description: 'Tag for filtering a library by PenguinMod',
         id: 'gui.libraryTags.penguinmod'
     },
+    adacraft: {
+        defaultMessage: 'Adacraft',
+        description: 'Tag for filtering a library by Adacraft',
+        id: 'gui.libraryTags.adacraft'
+    },
     scratch: {
         defaultMessage: 'Scratch',
         description: 'Tag for filtering a library by Scratch',

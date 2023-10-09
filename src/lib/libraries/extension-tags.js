@@ -2,6 +2,7 @@ import messages from './tag-messages.js';
 export default [
     { tag: 'dinosaurmod', intlLabel: messages.dinosaurmod },
     { tag: 'penguinmod', intlLabel: messages.penguinmod },
+    { tag: 'adacraft', intlLabel: messages.adacraft },
     { tag: 'turbowarp', intlLabel: messages.turbowarp },
     { tag: 'scratch', intlLabel: messages.scratch },
     { tag: 'divider2', intlLabel: messages.scratch, type: 'divider' },
