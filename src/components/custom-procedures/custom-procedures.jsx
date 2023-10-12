@@ -196,31 +196,6 @@ const CustomProcedures = props => (
                     className={styles.optionCard}
                     role="button"
                     tabIndex="0"
-                    onClick={props.onAddNumber}
-                >
-                    <img
-                        className={styles.optionIcon}
-                        src={textInputIcon}
-                    />
-                    <div className={styles.optionTitle}>
-                        <FormattedMessage
-                            defaultMessage="Add an input"
-                            description="Label for button to add a number input"
-                            id="gui.customProcedures.addAnInputNumber"
-                        />
-                    </div>
-                    <div className={styles.optionDescription}>
-                        <FormattedMessage
-                            defaultMessage="number input"
-                            description="Description of the number input type"
-                            id="gui.customProcedures.numberType"
-                        />
-                    </div>
-                </div>
-                <div
-                    className={styles.optionCard}
-                    role="button"
-                    tabIndex="0"
                     onClick={props.onAddBoolean}
                 >
                     <img
