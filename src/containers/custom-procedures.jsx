@@ -39,6 +39,7 @@ class CustomProcedures extends React.Component {
             'handleAddLabel',
             'handleAddBoolean',
             'handleAddTextNumber',
+            'handleAddNumber',
             'handleToggleWarp',
             'handleToggleReturns',
             'handleCancel',
