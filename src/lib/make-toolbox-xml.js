@@ -934,6 +934,19 @@ const sensing = function (isInitialSetup, isStage) {
             </block>
         `}
         <block id="answer" type="sensing_answer"/>
+        ${blockSeparator}
+        <block type="sensing_getspritewithattrib">
+            <value name="var">
+                <shadow type="text">
+                    <field name="TEXT">my variable</field>
+                </shadow>
+            </value>
+            <value name="val">
+                <shadow type="text">
+                    <field name="TEXT">0</field>
+                </shadow>
+            </value>
+        </block>
         <block type="sensing_thing_is_text">
             <value name="TEXT1">
                 <shadow type="text">
