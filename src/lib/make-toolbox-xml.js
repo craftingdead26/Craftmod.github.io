@@ -710,6 +710,13 @@ const control = function (isInitialSetup, isStage) {
                 </shadow>
             </value>
         </block>
+        <block type="control_repeatForSeconds">
+            <value name="DURATION">
+                <shadow type="math_positive_number">
+                    <field name="NUM">10</field>
+                </shadow>
+            </value>
+        </block>
         <block id="forever" type="control_forever"/>
         ${blockSeparator}
         <block type="control_switch"/>
