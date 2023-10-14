@@ -462,10 +462,10 @@ const menuItems = [
         featured: true
     },
     {
-        name: 'Sensing Expansion',
+        name: 'Hacked Blocks',
         extensionId: 'https://gabsthecuriouskid.github.io/FirstExtension/tryagain.js',
         iconURL: 'https://gabsthecuriouskid.github.io/FirstExtension/hackz.png',
-        tags: ['dinosaurmod', 'categoryexpansion'],
+        tags: ['dinosaurmod'],
         description: 'Hacked Blocks that exist in scratch but are not shown on the main toolbox.',
         credits: 'Some blocks from pumpkinhasapatch, LilyMakesThings, MrIncredibleMakerZE',
         featured: true
