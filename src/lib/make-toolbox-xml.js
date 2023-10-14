@@ -711,7 +711,7 @@ const control = function (isInitialSetup, isStage) {
             </value>
         </block>
         <block type="control_repeatForSeconds">
-            <value name="DURATION">
+            <value name="TIMES">
                 <shadow type="math_positive_number">
                     <field name="NUM">10</field>
                 </shadow>
