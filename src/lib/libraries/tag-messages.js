@@ -151,10 +151,10 @@ export default defineMessages({
         description: 'Tag for filtering a library by PenguinMod',
         id: 'gui.libraryTags.penguinmod'
     },
-    adacraft: {
-        defaultMessage: 'Adacraft',
-        description: 'Tag for filtering a library by Adacraft',
-        id: 'gui.libraryTags.adacraft'
+    forbidden: {
+        defaultMessage: 'Forbidden Extensions',
+        description: 'Tag for filtering a library by forbidden extensions',
+        id: 'gui.libraryTags.forbidden'
     },
     scratch: {
         defaultMessage: 'Scratch',

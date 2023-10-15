@@ -901,10 +901,19 @@ const menuItems = [
         twDeveloper: 'GarboMuffin'
     },
     {
+        name: 'Numberblocks Extension',
+        extensionId: 'https://gabsthecuriouskid.github.io/FirstExtension/numberblocks.js',
+        iconURL: 'https://gabsthecuriouskid.github.io/FirstExtension/hackz2.png',
+        tags: ['dinosaurmod', 'forbidden'],
+        description: 'what the actual f*ck is this extension doing here?.',
+        credits: 'Numberblocks',
+        featured: true
+    },
+    {
         name: 'the doo doo extension',
         extensionId: 'jgDooDoo',
         iconURL: defaultExtensionIcon,
-        tags: ['penguinmod'],
+        tags: ['penguinmod', 'forbidden'],
         description: 'a joke extension.',
         featured: true
     },
