@@ -363,6 +363,15 @@ const menuItems = [
         featured: true
     },
     {
+        name: 'Extra Inputs',
+        extensionId: 'https://gabsthecuriouskid.github.io/FirstExtension/extrainputs.js',
+        tags: ['dinosaurmod'],
+        iconURL: 'https://gabsthecuriouskid.github.io/FirstExtension/ExtraInputsThumbnail.png',
+        description: "Extra Inputs that you can use.",
+        featured: true,
+        extDeveloper: 'MrIncredibleMakerZe'
+    },
+    {
         name: 'Longman Dictionary',
         extensionId: 'https://extensions.turbowarp.org/veggiecan/LongmanDictionary.js',
         tags: ['turbowarp'],
@@ -487,6 +496,15 @@ const menuItems = [
         tags: ['turbowarp'],
         description: 'Store data persistently. Like cookies, but better.',
         featured: true
+    },
+    {
+        name: 'DeltaTime',
+        extensionId: 'https://extensions.turbowarp.org/XeroName/Deltatime.js',
+        tags: ['turbowarp'],
+        iconURL: 'https://extensions.turbowarp.org/images/XeroName/Deltatime.svg',
+        description: "Precise delta timing blocks.",
+        featured: true,
+        twDeveloper: 'XeroName'
     },
     {
         name: 'Physics',
