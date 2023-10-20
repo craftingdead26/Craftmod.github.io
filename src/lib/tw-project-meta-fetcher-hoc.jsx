@@ -6,8 +6,8 @@ import log from './log';
 import { setProjectTitle } from '../reducers/project-title';
 import { setAuthor, setDescription, setExtraProjectInfo, setRemixedProjectInfo } from '../reducers/tw';
 
-const API_URL = 'https://projects.penguinmod.site/api/projects/getPublished?id=$id';
-const API_REMIX_URL = 'https://projects.penguinmod.site/api/pmWrapper/remixes?id=$id';
+const API_URL = 'https://projects.penguinmod.com/api/projects/getPublished?id=$id';
+const API_REMIX_URL = 'https://projects.penguinmod.com/api/pmWrapper/remixes?id=$id';
 
 function APIProjectToReadableProject(apiProject) {
     return {

@@ -7,7 +7,7 @@ const VoteFrame = props => (
         style={props.id != '0' ? {} : { display: 'none' }}
         src={
             props.id != '0'
-                ? `https://penguinmod.site/embed/vote?id=${props.id}#dark=${props.darkmode}`
+                ? `https://penguinmod.com/embed/vote?id=${props.id}#dark=${props.darkmode}`
                 : 'about:blank'
         }
     ></iframe>

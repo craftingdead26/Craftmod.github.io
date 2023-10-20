@@ -57,7 +57,7 @@ class ExtensionLibrary extends React.PureComponent {
             return;
         }
         if (extensionId === 'special_penguinmodExtensionLibrary') {
-            window.open('https://extensions.penguinmod.site/');
+            window.open('https://extensions.penguinmod.com/');
             return;
         }
         const url = item.extensionURL ? item.extensionURL : extensionId;

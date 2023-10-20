@@ -94,7 +94,7 @@ const Credits = () => (
             </a>
             <h2>Domain Provider</h2>
             <p>
-                <a href="https://penguinmod.site">penguinmod.site</a> (and any subdomains) are currently provided by NotHouse.
+                <a href="https://penguinmod.com">penguinmod.com</a> (and any subdomains) are currently provided by NotHouse.
                 Currently no link to any known profile of theirs is publicly known.
             </p>
             <h2>Sound Effects</h2>

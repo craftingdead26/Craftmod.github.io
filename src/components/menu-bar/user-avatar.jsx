@@ -9,7 +9,7 @@ const UserAvatar = ({
     imageUrl,
     username
 }) => (
-    <a target="_blank" href={"https://penguinmod.site/profile?user=" + username}>
+    <a target="_blank" href={"https://penguinmod.com/profile?user=" + username}>
         <img
             className={classNames(
                 className,

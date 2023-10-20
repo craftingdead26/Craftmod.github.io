@@ -32,7 +32,7 @@ const decorate = text => {
     // Make hashtags clickable
     text = reactStringReplace(text, /#([\w-]+)/g, (match, i) => (
         <a
-            href={`https://studio.penguinmod.site/#${match}`}
+            href={`https://studio.penguinmod.com/#${match}`}
             key={match + i}
         >{`#${match}`}</a>
     ));

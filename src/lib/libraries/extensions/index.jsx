@@ -393,9 +393,9 @@ const menuItems = [
     },
     {
         name: 'Pen+',
-        extensionId: 'https://extensions.penguinmod.site/extensions/ObviousAlexC/PenPlus.js',
+        extensionId: 'https://extensions.penguinmod.com/extensions/ObviousAlexC/PenPlus.js',
         tags: ['categoryexpansion'],
-        iconURL: 'https://extensions.penguinmod.site/images/ObviousAlexC/PenPlus.svg',
+        iconURL: 'https://extensions.penguinmod.com/images/ObviousAlexC/PenPlus.svg',
         description: "An extension to the Pen category!",
         featured: true,
         extDeveloper: 'pinksheep2917'
@@ -455,9 +455,9 @@ const menuItems = [
     },
     {
         name: 'Cats',
-        extensionId: 'https://extensions.penguinmod.site/extensions/Gen1x/CATS.js',
+        extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/CATS.js',
         tags: ['penguinmod'],
-        iconURL: 'https://extensions.penguinmod.site/images/Gen1x/cats.png',
+        iconURL: 'https://extensions.penguinmod.com/images/Gen1x/cats.png',
         description: "Blocks related to cats.",
         featured: true,
         extDeveloper: 'G1nX',
@@ -740,9 +740,9 @@ const menuItems = [
     },
     {
         name: 'Recording',
-        extensionId: 'https://extensions.penguinmod.site/extensions/SharkPool/Recording.js',
+        extensionId: 'https://extensions.penguinmod.com/extensions/SharkPool/Recording.js',
         tags: ['penguinmod'],
-        iconURL: 'https://extensions.penguinmod.site/images/SharkPool/Recording.svg',
+        iconURL: 'https://extensions.penguinmod.com/images/SharkPool/Recording.svg',
         description: 'Record your voice while you run your projects!',
         featured: true,
         customInsetColor: '#7B9149',
@@ -818,8 +818,8 @@ const menuItems = [
     },
     {
         name: 'Sound Waves',
-        extensionId: 'https://extensions.penguinmod.site/extensions/SharkPool/Sound-Waves.js',
-        iconURL: 'https://extensions.penguinmod.site/images/SharkPool/Sound-Waves.svg',
+        extensionId: 'https://extensions.penguinmod.com/extensions/SharkPool/Sound-Waves.js',
+        iconURL: 'https://extensions.penguinmod.com/images/SharkPool/Sound-Waves.svg',
         tags: ['penguinmod'],
         description: 'Make sounds with oscillators!',
         credits: 'SharkPool',
@@ -974,7 +974,7 @@ const menuItems = [
                 id="pm.extraLibraryExtensions.name"
             />
         ),
-        href: 'https://extensions.penguinmod.site/',
+        href: 'https://extensions.penguinmod.com/',
         extensionId: 'special_penguinmodExtensionLibrary',
         iconURL: penguinmodLibraryExtensionIcon,
         description: (
