@@ -498,13 +498,12 @@ const menuItems = [
         featured: true
     },
     {
-        name: 'DeltaTime',
-        extensionId: 'https://extensions.turbowarp.org/XeroName/Deltatime.js',
+        name: 'Clipboard',
+        extensionId: 'https://extensions.turbowarp.org/clipboard.js',
         tags: ['turbowarp'],
-        iconURL: 'https://extensions.turbowarp.org/images/XeroName/Deltatime.svg',
-        description: "Precise delta timing blocks.",
+        iconURL: 'https://extensions.turbowarp.org/images/clipboard.svg',
+        description: "Read and write from the system clipboard.",
         featured: true,
-        twDeveloper: 'XeroName'
     },
     {
         name: 'Physics',
