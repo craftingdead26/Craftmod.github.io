@@ -1,5 +1,6 @@
 import classNames from 'classnames';
-import { FormattedMessage } from 'react-intl';
+import { connect } from 'react-redux';
+import { FormattedMessage, injectIntl } from 'react-intl';
 import PropTypes from 'prop-types';
 import React from 'react';
 import bindAll from 'lodash.bindall';
@@ -8,31 +9,26 @@ import Button from '../button/button.jsx';
 import loadingIcon from './share-loading.svg';
 import styles from './share-button.css';
 
-const getProjectThumbnail = () => {
-    return new Promise((resolve) => {
-        window.vm.renderer.requestSnapshot(uri => {
-            resolve(uri);
-        });
+const getProjectThumbnail = () => new Promise(resolve => {
+    window.vm.renderer.requestSnapshot(uri => {
+        resolve(uri);
     });
-}
-const getProjectUri = () => {
-    return new Promise((resolve) => {
-        window.vm.saveProjectSb3().then(blob => {
-            return new Promise(resolve => {
-                const reader = new FileReader();
-                reader.onload = element => {
-                    resolve(element.target.result);
-                }
-                reader.readAsDataURL(blob);
-            });
-        }).then(resolve);
-    });
-}
+});
+const getProjectUri = () => new Promise(resolve => {
+    window.vm.saveProjectSb3().then(blob => new Promise(resolve => {
+        const reader = new FileReader();
+        reader.onload = element => {
+            resolve(element.target.result);
+        };
+        reader.readAsDataURL(blob);
+    }))
+        .then(resolve);
+});
 
 const isUploadAvailable = async () => {
     let res = null;
     try {
-        res = await fetch('https://projects.penguinmod.site/api');
+        res = await fetch('https://projects.penguinmod.com/api');
     } catch {
         // failed to fetch entirely
         return false;
@@ -50,7 +46,7 @@ class ShareButton extends React.Component {
         ]);
         this.state = {
             loading: false
-        }
+        };
     }
     componentDidMount() {
         window.addEventListener('message', this.wrapperEventHandler);
@@ -63,7 +59,7 @@ class ShareButton extends React.Component {
         this.handleMessageEvent(e);
     }
     async handleMessageEvent(e) {
-        if (!e.origin.startsWith(`https://penguinmod.site`)) {
+        if (!e.origin.startsWith(`https://penguinmod.com`)) {
             return;
         }
 
@@ -113,19 +109,15 @@ class ShareButton extends React.Component {
                 alert('Uploading is currently unavailable. Please wait for the server to be restored.');
                 return;
             }
-            // we are available
-            let _projectName = document.title.split(" - ");
-            _projectName.pop();
-            const projectName = _projectName.join(" - ");
 
             let remixPiece = '';
-            if (location.hash.includes("#")) {
-                const id = location.hash.replace("#", "");
+            if (location.hash.includes('#')) {
+                const id = location.hash.replace('#', '');
                 remixPiece = `&remix=${id}`;
             }
 
             const url = location.origin;
-            window.open(`https://penguinmod.com/upload?name=${encodeURIComponent(projectName)}${remixPiece}&external=${url}`, "_blank");
+            window.open(`https://penguinmod.com/upload?name=${this.props.projectTitle}${remixPiece}&external=${url}`, '_blank');
         });
     }
     render() {
@@ -140,7 +132,7 @@ class ShareButton extends React.Component {
                 onClick={this.onUploadProject}
             >
                 <div className={classNames(styles.shareContent)}>
-                    {window.location.hash.includes("#") ?
+                    {window.location.hash.includes('#') ?
                         <FormattedMessage
                             defaultMessage="Remix"
                             description="Menu bar item for remixing"
@@ -168,7 +160,18 @@ class ShareButton extends React.Component {
 
 ShareButton.propTypes = {
     className: PropTypes.string,
-    isShared: PropTypes.bool
+    isShared: PropTypes.bool,
+    projectTitle: PropTypes.string
 };
 
-export default ShareButton;
+const mapStateToProps = state => ({
+    projectTitle: state.scratchGui.projectTitle
+});
+
+// eslint-disable-next-line no-unused-vars
+const mapDispatchToProps = dispatch => ({});
+
+export default injectIntl(connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(ShareButton));
