@@ -88,7 +88,7 @@ specifiers:
   scratch-render-fonts: 1.0.0-prerelease.20210401210003
   scratch-storage: github:TurboWarp/scratch-storage#develop
   scratch-svg-renderer: github:TurboWarp/scratch-svg-renderer#develop
-  scratch-vm: github:PenguinMod/PenguinMod-Vm#develop
+  scratch-vm: github:Dinosaurmod/DinosaurMod-Vm#develop
   selenium-webdriver: 3.6.0
   startaudiocontext: 1.2.1
   style-loader: ^0.23.1
@@ -163,7 +163,7 @@ dependencies:
   scratch-render-fonts: 1.0.0-prerelease.20210401210003
   scratch-storage: github.com/TurboWarp/scratch-storage/5392b136b2e6982231023bf4bf9c14c4b890dd46_webpack@4.46.0
   scratch-svg-renderer: github.com/TurboWarp/scratch-svg-renderer/3aaf933b19b55d632b6319cb05ab276528b9964d_jgmwvpsb5yiknzfs7zehpymxpy
-  scratch-vm: github.com/PenguinMod/PenguinMod-Vm/e1363170a934a5e73d9725a321799da144b2d755_cnjjgryycnetjxj63hj6pfbvmu
+  scratch-vm: github.com/Dinosaurmod/DinosaurMod-Vm/e1363170a934a5e73d9725a321799da144b2d755_cnjjgryycnetjxj63hj6pfbvmu
   startaudiocontext: 1.2.1
   style-loader: 0.23.1
   text-encoding: 0.7.0
@@ -10965,9 +10965,9 @@ packages:
       twgl.js: 4.4.0
     dev: false
 
-  github.com/PenguinMod/PenguinMod-Vm/e1363170a934a5e73d9725a321799da144b2d755_cnjjgryycnetjxj63hj6pfbvmu:
-    resolution: {tarball: https://codeload.github.com/PenguinMod/PenguinMod-Vm/tar.gz/e1363170a934a5e73d9725a321799da144b2d755}
-    id: github.com/PenguinMod/PenguinMod-Vm/e1363170a934a5e73d9725a321799da144b2d755
+  github.com/Dinosaurmod/DinosaurMod-Vm/e1363170a934a5e73d9725a321799da144b2d755_cnjjgryycnetjxj63hj6pfbvmu:
+    resolution: {tarball: https://codeload.github.com/Dinosaurmod/DinosaurMod-Vm/tar.gz/e1363170a934a5e73d9725a321799da144b2d755}
+    id: github.com/Dinosaurmod/DinosaurMod-Vm/e1363170a934a5e73d9725a321799da144b2d755
     name: scratch-vm
     version: 0.2.0
     peerDependencies:
