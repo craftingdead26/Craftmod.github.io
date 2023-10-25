@@ -517,6 +517,14 @@ const menuItems = [
         featured: true
     },
     {
+        name: 'Tailgating / TEST',
+        extensionId: 'jg_tailgating',
+        description: 'Have sprites & clones follow beind other sprites & clones by an offset, like RPG party members.',
+        iconURL: 'https://studio.penguinmod.com/static/assets/ff2dc3c9ffca9e8097e82e3ff64b5955.png',
+        tags: ['penguinmod'],
+        featured: true
+    },
+    {
         name: 'Tweening',
         extensionId: 'jgTween',
         credits: 'easings.net & Arrow',
