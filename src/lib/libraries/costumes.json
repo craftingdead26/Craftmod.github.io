@@ -3024,6 +3024,21 @@
         "rotationCenterY": 40
     },
     {
+        "name": "Dinosaur3-f",
+        "tags": [
+            "animals",
+            "dinosaur",
+            "pteranodon",
+            "alex eben meyer"
+        ],
+        "assetId": "5e9da5a4d27d201e82ac596ad7f82552",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "md5ext": "5e9da5a4d27d201e82ac596ad7f82552.svg",
+        "rotationCenterX": 41,
+        "rotationCenterY": 40
+    },
+    {
         "name": "Dinosaur4-a",
         "tags": [
             "animals",
