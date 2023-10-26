@@ -437,6 +437,14 @@ const menuItems = [
         // credits: 'CST1229'
     },
     {
+        name: 'Wait block Expansion',
+        extensionId: 'https://gabsthecuriouskid.github.io/FirstExtension/waitblockexpansion.js',
+        iconURL: pmControlsExpansionExtensionIcon,
+        tags: ['dinosaurmod', 'categoryexpansion'],
+        description: "More wait blocks, i guess..",
+        featured: true,
+    },
+    {
         name: 'Sensing Expansion',
         extensionId: 'pmSensingExpansion',
         iconURL: pmSensingExpansionExtensionIcon,
@@ -518,7 +526,7 @@ const menuItems = [
     },
     {
         name: 'Tailgating / TEST',
-        extensionId: 'jg_tailgating',
+        extensionId: 'jgtailgating',
         description: 'Have sprites & clones follow beind other sprites & clones by an offset, like RPG party members.',
         iconURL: 'https://studio.penguinmod.com/static/assets/ff2dc3c9ffca9e8097e82e3ff64b5955.png',
         tags: ['penguinmod'],
