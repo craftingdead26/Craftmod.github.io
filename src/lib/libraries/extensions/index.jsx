@@ -1026,6 +1026,27 @@ const menuItems = [
         featured: true
     },
     {
+        name: (
+            <FormattedMessage
+                defaultMessage="Sharkpool Extension Gallery"
+                description="extension library for Turbowarp made by Sharkpool"
+                id="sp.extensionGallery.name"
+            />
+        ),
+        href: 'https://sharkpools-extensions.vercel.app/?originPM=true',
+        extensionId: 'special_SharkpoolExtensionLibrary',
+        iconURL: 'https://studio.penguinmod.com/static/assets/93259f95026260bc06f83d29d3b89115.svg',
+        description: (
+            <FormattedMessage
+                // eslint-disable-next-line max-len
+                defaultMessage="more extensions, im too lazy to copy the original description."
+                description="Description of https://sharkpools-extensions.vercel.app/?originPM=true in extension library"
+                id="sp.extensionGallery.description"
+            />
+        ),
+        featured: true
+    },
+    {
         name: 'micro:bit',
         extensionId: 'microbit',
         collaborator: 'micro:bit',
