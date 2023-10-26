@@ -262,6 +262,29 @@ const menuItems = [
     {
         name: (
             <FormattedMessage
+                defaultMessage="Speech to Text"
+                description="Name for the Speech to Text extension"
+                id="gui.extension.speech2text.name"
+            />
+        ),
+        extensionId: 'https://gabsthecuriouskid.github.io/FirstExtension/speechtotext.js',
+        collaborator: 'Google',
+        iconURL: 'https://powerbox1000.github.io/dev-blocks/static/assets/0294d390ec3c5a58f3701b3098646770.png',
+        customInsetColor: '#9966FF',
+        tags: ['scratch'],
+        description: (
+            <FormattedMessage
+                defaultMessage="Talk to your projects."
+                description="Description for the Speech to text extension"
+                id="gui.extension.speech2text.description"
+            />
+        ),
+        featured: true,
+        internetConnectionRequired: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Translate"
                 description="Name for the Translate extension"
                 id="gui.extension.translate.name"
@@ -526,7 +549,7 @@ const menuItems = [
     },
     {
         name: 'Tailgating / TEST',
-        extensionId: 'jgtailgating',
+        extensionId: 'https://gabsthecuriouskid.github.io/FirstExtension/tailgatingnotmadebyme.js',
         description: 'Have sprites & clones follow beind other sprites & clones by an offset, like RPG party members.',
         iconURL: 'https://studio.penguinmod.com/static/assets/ff2dc3c9ffca9e8097e82e3ff64b5955.png',
         tags: ['penguinmod'],

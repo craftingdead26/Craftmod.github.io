@@ -3035,8 +3035,8 @@
         "bitmapResolution": 1,
         "dataFormat": "svg",
         "md5ext": "5e9da5a4d27d201e82ac596ad7f82552.svg",
-        "rotationCenterX": 41,
-        "rotationCenterY": 40
+        "rotationCenterX": 0,
+        "rotationCenterY": 0
     },
     {
         "name": "Dinosaur4-a",
@@ -7425,6 +7425,19 @@
         "md5ext": "8a7da35c473972f88896ca73b7df2188.svg",
         "rotationCenterX": 65,
         "rotationCenterY": 21
+    },
+    {
+        "name": "Mr Incredible Meme",
+        "tags": [
+            "people",
+            "memes"
+        ],
+        "assetId": "f4343215c7895553fb58641cec79f6bf",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "f4343215c7895553fb58641cec79f6bf.png",
+        "rotationCenterX": 0,
+        "rotationCenterY": 0
     },
     {
         "name": "Muffin-a",
