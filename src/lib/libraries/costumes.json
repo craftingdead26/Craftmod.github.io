@@ -3034,9 +3034,7 @@
         "assetId": "5e9da5a4d27d201e82ac596ad7f82552",
         "bitmapResolution": 1,
         "dataFormat": "svg",
-        "md5ext": "5e9da5a4d27d201e82ac596ad7f82552.svg",
-        "rotationCenterX": 0,
-        "rotationCenterY": 0
+        "md5ext": "5e9da5a4d27d201e82ac596ad7f82552.svg"
     },
     {
         "name": "Dinosaur4-a",
@@ -7435,9 +7433,7 @@
         "assetId": "f4343215c7895553fb58641cec79f6bf",
         "bitmapResolution": 1,
         "dataFormat": "png",
-        "md5ext": "f4343215c7895553fb58641cec79f6bf.png",
-        "rotationCenterX": 0,
-        "rotationCenterY": 0
+        "md5ext": "f4343215c7895553fb58641cec79f6bf.png"
     },
     {
         "name": "Muffin-a",
