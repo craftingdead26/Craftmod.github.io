@@ -4,9 +4,9 @@ const showSaveFilePicker = fileName => window.showSaveFilePicker({
     suggestedName: fileName,
     types: [
         {
-            description: 'PenguinMod Project',
+            description: 'DinosaurMod Project',
             accept: {
-                'application/x.scratch.sb3': '.pmp'
+                'application/x.scratch.sb3': '.dino'
             }
         }
     ],
@@ -17,6 +17,12 @@ const showOpenFilePicker = async () => {
     const [handle] = await window.showOpenFilePicker({
         multiple: false,
         types: [
+            {
+                description: 'DinosaurMod Project',
+                accept: {
+                    'application/x.scratch.sb3': ['.dino']
+                }
+            },
             {
                 description: 'PenguinMod Project',
                 accept: {
