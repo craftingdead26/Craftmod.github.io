@@ -261,7 +261,7 @@ const getProjectFilename = (curTitle, defaultTitle) => {
     if (!filenameTitle || filenameTitle.length === 0) {
         filenameTitle = defaultTitle;
     }
-    return `${filenameTitle.substring(0, 100)}.pmp`;
+    return `${filenameTitle.substring(0, 100)}.dino`;
 };
 
 SB3Downloader.propTypes = {
