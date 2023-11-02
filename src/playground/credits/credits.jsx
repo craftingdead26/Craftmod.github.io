@@ -54,18 +54,18 @@ const Credits = () => (
     <main className={styles.main}>
         <header className={styles.headerContainer}>
             <h1 className={styles.headerText}>
-                PenguinMod Credits
+                DinosaurMod Credits
             </h1>
         </header>
         <section>
-            <h1>PenguinMod</h1>
+            <h1>Dinosaurmod</h1>
         </section>
         <section>
             <h2>Thank you</h2>
             <p>
-                Without TurboWarp, PenguinMod may have never existed.
-                Thank you to everyone who worked on Scratch and TurboWarp,
-                you have made many people finally be able to make whatever they can imagine.
+                Without Penguinmod, DinosaurMod may have never existed.
+                Thank you to everyone who worked on Scratch, TurboWarp & Penguinmod,
+                you have made many people be able to make whatever they can imagine.
             </p>
             <a href="https://scratch.mit.edu/donate">
                 Donate to support Scratch.
@@ -74,17 +74,21 @@ const Credits = () => (
             <a href="https://github.com/sponsors/GarboMuffin">
                 Donate to support TurboWarp.
             </a>
+            <br></br><br></br>
+            <a href="https://penguinmod.com/donate">
+                Donate to support PenguinMod.
+            </a>
             <h2>Contributors</h2>
             <p>
-                PenguinMod is made by a small bunch of developers.
-                A list is below, but you can also check <a href="https://github.com/orgs/PenguinMod/people">our GitHub</a> incase this one is out of date.
+                DinosaurMod is made by a small bunch of developers.
+                A list is below, but you can also check <a href="https://github.com/orgs/DinosaurMod/people">our GitHub</a> incase this one is out of date.
             </p>
             <UserList users={UserData.pmDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
         </section>
         <section>
             <h2>GitHub Pages</h2>
-            <p>We currently use <a href="https://pages.github.com/">GitHub Pages</a> to host PenguinMod.</p>
+            <p>We currently use <a href="https://pages.github.com/">GitHub Pages</a> to host DinosaurMod.</p>
             <a href="https://pages.github.com/">
                 <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/collections/github-pages-examples/github-pages-examples.png"
@@ -92,11 +96,6 @@ const Credits = () => (
                     height="160"
                 />
             </a>
-            <h2>Domain Provider</h2>
-            <p>
-                <a href="https://penguinmod.com">penguinmod.com</a> (and any subdomains) are currently provided by NotHouse.
-                Currently no link to any known profile of theirs is publicly known.
-            </p>
             <h2>Sound Effects</h2>
             <p>
                 PenguinMod has added some more sounds to the Sound Library.
@@ -104,29 +103,9 @@ const Credits = () => (
                 from <a href="https://freesound.org/">https://freesound.org/</a> and <a href="https://archive.org/">https://archive.org/</a> under
                 the Public Domain license.
             </p>
-            <h2>Accounts</h2>
-            <p>
-                Login is managed
-                by <a href="https://auth.itinerary.eu.org/">Scratch Auth</a> created
-                by <a href="https://scratch.mit.edu/users/Looky1173/">Looky1173</a>.
-                (thanks for adding us to the user list!)
-                <br />
-                <br />
-                <i>
-                    "Scratch Auth" is not actually affiliated with Scratch,
-                    the Scratch Team, or the Scratch Foundation.
-                </i>
-                <br />
-                <br />
-                <i>
-                    PenguinMod is also not owned or managed by Looky1173, please only comment on his profile
-                    <br />
-                    if the Scratch Auth page tells you that it failed, not if PenguinMod fails to load.
-                </i>
-            </p>
         </section>
         <section>
-            <h1>PenguinMod & TurboWarp</h1>
+            <h1>Dinosaurmod, PenguinMod & TurboWarp</h1>
         </section>
         <section>
             <h2>Extensions</h2>
@@ -158,6 +137,20 @@ const Credits = () => (
             </p>
             <UserList users={UserData.addonDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
+        </section>
+        <section>
+            <h1>Penguinmod</h1>
+        </section>
+        <section>
+            <p>
+                Penguinmod is made possible by the work of many volunteers and contributors.
+                <br></br>
+                You can check out Penguinmod's credits page <a href="https://studio.penguinmod.com/credits.html">here</a>.
+                <br></br>
+                <a href="https://penguinmod.com/donate">
+                    Donate to support Penguinmod.
+                </a>
+            </p>
         </section>
         <section>
             <h1>TurboWarp</h1>
@@ -210,8 +203,12 @@ const Credits = () => (
                 far more than we could hope to list here.
             </p>
             <p>
-                PenguinMod is also (very very slowly) getting translated into other languages, in the future
+                Penguinmod is (very very slowly) getting translated into other languages, in the future
                 hopefully the same number of languages can be supported. It'll take a while until we get there though.
+            </p>
+            <p>
+                Dinosaurmod is not getting translated into other languages because this is edited by one person, in the very future
+                we hope the same languages can be supported. It's going to take a long while until we get to the number of languages.
             </p>
             <p>Contributors:</p>
             <UserList users={UserData.pmTranslators} />
