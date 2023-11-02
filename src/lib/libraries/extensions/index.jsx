@@ -534,6 +534,14 @@ const menuItems = [
         featured: true
     },
     {
+        name: 'Tailgating',
+        extensionId: 'jgTailgating',
+        description: 'Have sprites & clones follow behind other sprites & clones by an offset, like RPG party members.',
+        iconURL: 'https://distrot.github.io/static/assets/ff2dc3c9ffca9e8097e82e3ff64b5955.png',
+        tags: ['penguinmod'],
+        featured: true
+    },
+    {
         name: 'Canvas Effects',
         extensionId: 'theshovelcanvaseffects',
         iconURL: theshovelCanvasEffectsIcon,
@@ -992,7 +1000,7 @@ const menuItems = [
                 id="pm.extraLibraryExtensions.description"
             />
         ),
-        tags: ['penguinmod'],
+        tags: ['penguinmod', 'collections'],
         featured: true
     },
     {
@@ -1014,7 +1022,7 @@ const menuItems = [
                 id="tw.extensionGallery.description"
             />
         ),
-        tags: ['tw'],
+        tags: ['tw', 'collections'],
         featured: true
     },
     {
@@ -1036,6 +1044,7 @@ const menuItems = [
                 id="sp.extensionGallery.description"
             />
         ),
+        tags: ['collections'],
         featured: true
     },
     {

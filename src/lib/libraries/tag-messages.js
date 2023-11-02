@@ -201,4 +201,9 @@ export default defineMessages({
         description: 'Tag for filtering a library by hardware.',
         id: 'gui.libraryTags.hardware'
     },
+    collections: {
+        defaultMessage: 'Collections',
+        description: 'Tag for filtering a library by collections.',
+        id: 'gui.libraryTags.collections'
+    },
 });
