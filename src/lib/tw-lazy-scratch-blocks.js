@@ -215,11 +215,11 @@ const load2 = () => {
                     const oldLoad = _ScratchBlocks.Blocks[prototypeName].domToMutation;
                     _ScratchBlocks.Blocks[prototypeName].domToMutation = function (dom) {
                         if (oldLoad) oldLoad.call(this, dom);
-                        if (this.inputList.length < 1 || this.inputList[0].name !== 'yourMom') {
-                            this.appendDummyInput('yourMom')
-                                .appendField('your mom')
+                        if (this.inputList.length < 1 || this.inputList[0].name !== 'jurassicPark') {
+                            this.appendDummyInput('jurassicPark')
+                                .appendField('JURASSIC PARK')
                                 .appendField(new _ScratchBlocks.FieldImage(
-                                    'https://penguinmod.com/dump/1039714598959452261.webp',
+                                    'https://cdn.freebiesupply.com/logos/large/2x/jurassic-park-2-logo-png-transparent.png',
                                     15,
                                     15,
                                     '*',
@@ -227,11 +227,11 @@ const load2 = () => {
                                 ));
                         }
                         if (this.inputList.length > 1) {
-                            this.moveInputBefore('yourMom', this.inputList[0].name);
+                            this.moveInputBefore('jurassicPark', this.inputList[0].name);
                         }
-                        this.setColour('#ff0000');
-                        this.setTooltip('your mom :trel:');
-                        this.setHelpUrl('https://penguinmod.com/dump/urmom-your-mom.gif');
+                        this.setColour('#000000');
+                        this.setTooltip('jurassic Park :dino:');
+                        this.setHelpUrl('https://i.giphy.com/media/TFxYl2lYJEu9kY1lEb/giphy.webp');
                     };
                     oldConstructor.call(this, ...args);
                 };
