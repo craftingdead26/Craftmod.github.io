@@ -831,6 +831,7 @@ const control = function (isInitialSetup, isStage) {
             </block>
             <block type="control_clear_counter"/>
         ${LazyScratchBlocks.isNameUrMom() ? '<block type="your_mom"/>' : ''}
+        ${LazyScratchBlocks.isNameJurassicPark()}
         ${categorySeparator}
     </category>
     `;
