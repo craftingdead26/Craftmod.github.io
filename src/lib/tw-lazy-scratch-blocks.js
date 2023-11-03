@@ -13,7 +13,7 @@ const isNameUrMom = () => _WasNameYourmom = (() => {
 const isNameJurassicPark = () => _WasNameJurassicPark = (() => {
     const username = localStorage
         .getItem('tw:username');
-    return username && ((username.toLowerCase() === 'jurassicpark') || (username.toLowerCase() === 'jurassicpark') ||
+    return username && ((username.toLowerCase() === 'jurassicpark') || (username.toLowerCase() === 'trexpark') ||
         (username.toLowerCase() === 'dinosaurpark') || (username.toLowerCase() === 'dinosaursarecool'));
 })();
 
