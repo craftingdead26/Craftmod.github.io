@@ -889,14 +889,14 @@ class MenuBar extends React.Component {
                     <div className={styles.menuBarItem}>
                         <a
                             className={styles.feedbackLink}
-                            href="https://penguinmod.com"
+                            href="https://studio.penguinmod.com/editor.html"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
                             <Button className={styles.feedbackButton}>
                                 <FormattedMessage
-                                    defaultMessage="Back to Home"
-                                    description="Button to go back to the home page"
+                                    defaultMessage="Go To Penguinmod Editor"
+                                    description="Button to go to the editor page of penguinmod"
                                     id="pm.backToHomeButton"
                                 />
                             </Button>
