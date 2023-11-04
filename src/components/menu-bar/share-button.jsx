@@ -134,12 +134,12 @@ class ShareButton extends React.Component {
                 <div className={classNames(styles.shareContent)}>
                     {window.location.hash.includes('#') ?
                         <FormattedMessage
-                            defaultMessage="Remix"
+                            defaultMessage="Remix To Penguinmod"
                             description="Menu bar item for remixing"
                             id="gui.menuBar.remix"
                         /> :
                         <FormattedMessage
-                            defaultMessage="Upload"
+                            defaultMessage="Upload To Penguinmod"
                             description="Label for project share button"
                             id="gui.menuBar.pmshare"
                         />}
