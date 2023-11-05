@@ -267,7 +267,7 @@ const menuItems = [
                 id="gui.extension.speech2text.name"
             />
         ),
-        extensionId: 'speech2text',
+        extensionId: 'scratch3_speech2text',
         collaborator: 'Google',
         iconURL: 'https://powerbox1000.github.io/dev-blocks/static/assets/0294d390ec3c5a58f3701b3098646770.png',
         tags: ['scratch'],
