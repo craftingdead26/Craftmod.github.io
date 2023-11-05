@@ -352,16 +352,6 @@ const menuItems = [
         featured: true
     },
     {
-        name: 'Camera Sensing Plus',
-        extensionId: 'https://snail-ide.github.io/sensing.js',
-        twDeveloper: 'SharkPool',
-        credits: 'Snail-IDE',
-        iconURL: 'https://viewscreen.githubusercontent.com/view/svg?browser=chrome&bypass_fastly=true&color_mode=dark&commit=ba342a9d0fb3f3ee92bad604f3dd985888be1ae1&device=unknown_device&docs_host=https%3A%2F%2Fdocs.github.com&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f536861726b506f6f6c2d53502f536861726b506f6f6c732d457874656e73696f6e732f626133343261396430666233663365653932626164363034663364643938353838386265316165312f657874656e73696f6e2d7468756d62732f43616d6572612d53656e73696e672d506c75732e737667&logged_in=true&nwo=SharkPool-SP%2FSharkPools-Extensions&path=extension-thumbs%2FCamera-Sensing-Plus.svg&platform=linux&repository_id=668067482&repository_type=Repository&version=116#1060ffb0-fda8-4ee7-aa38-c842750410b4',
-        tags: ['turbowarp'],
-        description: 'Improved camera sensing',
-        featured: true
-    },
-    {
         name: 'Stage Camera',
         extensionId: 'pmCamera',
         iconURL: pmCameraExtensionIcon,
