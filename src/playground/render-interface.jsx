@@ -69,7 +69,7 @@ const handleClickAddonSettings = () => {
 
 const messages = defineMessages({
     defaultTitle: {
-        defaultMessage: 'A mod of Penguinmod',
+        defaultMessage: 'A mod of dinosaurmod',
         description: 'Title of homepage',
         id: 'tw.guiDefaultTitle'
     }
