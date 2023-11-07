@@ -39,7 +39,7 @@ import styles from './interface.css';
 
 const messages = defineMessages({
     defaultTitle: {
-        defaultMessage: 'A mod of Penguinmod',
+        defaultMessage: 'A mod of Dinosaurmod',
         description: 'Title of homepage',
         id: 'tw.guiDefaultTitle'
     }
