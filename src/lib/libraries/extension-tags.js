@@ -1,7 +1,7 @@
 import messages from './tag-messages.js';
 export default [
     { tag: 'dinosaurmod', intlLabel: messages.dinosaurmod },
-    { tag: 'penguinmod', intlLabel: messages.penguinmod },
+    { tag: 'nonomod', intlLabel: messages.penguinmod },
     { tag: 'forbidden', intlLabel: messages.forbidden },
     { tag: 'turbowarp', intlLabel: messages.turbowarp },
     { tag: 'scratch', intlLabel: messages.scratch },
