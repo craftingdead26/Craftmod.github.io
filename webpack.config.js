@@ -167,35 +167,35 @@ module.exports = [
                 chunks: ['editor'],
                 template: 'src/playground/index.ejs',
                 filename: 'editor.html',
-                title: 'DinosaurMod - A mod of Penguinmod',
+                title: 'CraftMod - A mod',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['playground'],
                 template: 'src/playground/index.ejs',
                 filename: 'playground.html',
-                title: 'DinosaurMod - A mod of Penguinmod',
+                title: 'CraftMod - A mod',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['player'],
                 template: 'src/playground/index.ejs',
                 filename: 'index.html',
-                title: 'DinosaurMod - A mod of Penguinmod',
+                title: 'CraftMod - A mod',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['fullscreen'],
                 template: 'src/playground/index.ejs',
                 filename: 'fullscreen.html',
-                title: 'DinosaurMod - A mod of Penguinmod',
+                title: 'CraftMod - A mod',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['embed'],
                 template: 'src/playground/index.ejs',
                 filename: 'embed.html',
-                title: 'Embedded Project - DinosaurMod',
+                title: 'Embedded Project - CraftMod',
                 noTheme: true,
                 ...htmlWebpackPluginCommon
             }),
@@ -203,14 +203,14 @@ module.exports = [
                 chunks: ['addon-settings'],
                 template: 'src/playground/simple.ejs',
                 filename: 'addons.html',
-                title: 'Addon Settings - Dinosaurmod',
+                title: 'Addon Settings - Craftmod',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['credits'],
                 template: 'src/playground/simple.ejs',
                 filename: 'credits.html',
-                title: 'DinosaurMod, PenguinMod & TurboWarp Credits',
+                title: 'CraftMod, DinosarMod & TurboWarp Credits',
                 noSplash: true,
                 ...htmlWebpackPluginCommon
             }),
