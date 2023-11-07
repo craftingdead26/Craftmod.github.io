@@ -514,14 +514,14 @@ class MenuBar extends React.Component {
                                     onRequestClose={this.props.onRequestCloseErrors}
                                 >
                                     <MenuSection>
-                                        <MenuItemLink href="https://discord.gg/NZ9MBMYTZh">
+                                        <MenuItemLink href="https://h">
                                             <FormattedMessage
                                                 defaultMessage="Some scripts could not be compiled."
                                                 description="Link in error menu"
                                                 id="tw.menuBar.reportError1"
                                             />
                                         </MenuItemLink>
-                                        <MenuItemLink href="https://discord.gg/NZ9MBMYTZh">
+                                        <MenuItemLink href="https:/">
                                             <FormattedMessage
                                                 defaultMessage="This is a bug. Please report it."
                                                 description="Link in error menu"
@@ -889,14 +889,14 @@ class MenuBar extends React.Component {
                     <div className={styles.menuBarItem}>
                         <a
                             className={styles.feedbackLink}
-                            href="https://studio.penguinmod.com/editor.html"
+                            href="https://studio.puinmod.com/editor.html"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
                             <Button className={styles.feedbackButton}>
                                 <FormattedMessage
-                                    defaultMessage="Go To Penguinmod Editor"
-                                    description="Button to go to the editor page of penguinmod"
+                                    defaultMessage="Go To nmod Editor"
+                                    description="Button to go to the editor page of mod"
                                     id="pm.backToHomeButton"
                                 />
                             </Button>
