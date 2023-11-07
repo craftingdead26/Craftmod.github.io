@@ -115,8 +115,8 @@ const Footer = () => (
             <div className={styles.footerText}>
                 <FormattedMessage
                     // eslint-disable-next-line max-len
-                    defaultMessage="Dinosaurmod, PenguinMod and TurboWarp are not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
-                    description="Disclaimer that Dinosaurmod, PenguinMod and TurboWarp are not connected to Scratch"
+                    defaultMessage="Craftmod, Dinosaurmod and TurboWarp are not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
+                    description="Disclaimer that Craftmod, Dinosaurmod and TurboWarp are not connected to Scratch"
                     id="tw.footer.disclaimer"
                 />
             </div>
@@ -138,51 +138,6 @@ const Footer = () => (
                     </a>
                 </div>
                 <div className={styles.footerSection}>
-                    <a href="https://studio.penguinmod.com/PenguinMod-Packager">
-                        {/* Do not translate */}
-                        {'PenguinMod Packager'}
-                    </a>
-                    <a href="https://desktop.turbowarp.org/">
-                        {/* Do not translate */}
-                        {'TurboWarp Desktop'}
-                    </a>
-                    <a href="https://docs.turbowarp.org/embedding">
-                        <FormattedMessage
-                            defaultMessage="Embedding"
-                            description="Link in footer to embedding documentation for embedding link"
-                            id="tw.footer.embed"
-                        />
-                    </a>
-                    <a href="https://docs.turbowarp.org/url-parameters">
-                        <FormattedMessage
-                            defaultMessage="URL Parameters"
-                            description="Link in footer to URL parameters documentation"
-                            id="tw.footer.parameters"
-                        />
-                    </a>
-                    <a href="https://docs.turbowarp.org/">
-                        <FormattedMessage
-                            defaultMessage="Documentation"
-                            description="Link in footer to additional documentation"
-                            id="tw.footer.documentation"
-                        />
-                    </a>
-                </div>
-                <div className={styles.footerSection}>
-                    <a href="https://discord.gg/NZ9MBMYTZh">
-                        <FormattedMessage
-                            defaultMessage="Feedback & Bugs"
-                            description="Link to feedback/bugs page"
-                            id="tw.feedback"
-                        />
-                    </a>
-                    <a href="https://github.com/PenguinMod">
-                        <FormattedMessage
-                            defaultMessage="Source Code"
-                            description="Link to source code"
-                            id="tw.code"
-                        />
-                    </a>
                     <a href="privacy.html">
                         <FormattedMessage
                             defaultMessage="Privacy Policy"
@@ -208,7 +163,7 @@ class Interface extends React.Component {
     }
     handleUpdateProjectTitle(title, isDefault) {
         if (isDefault || !title) {
-            document.title = `DinosaurMod - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
+            document.title = `Craftmod - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
         } else {
             document.title = `${title} - DinosaurMod`;
         }
@@ -281,7 +236,7 @@ class Interface extends React.Component {
                                         <a
                                             style={{ height: "32px" }}
                                             target="_blank"
-                                            href={`https://penguinmod.com/profile?user=${remixedProjectInfo.author}`}
+                                            href={`https://nmod.com/profile?user=${remixedProjectInfo.author}`}
                                         >
                                             <img
                                                 className={styles.remixAuthorImage}
@@ -294,7 +249,7 @@ class Interface extends React.Component {
                                             Thanks to <b>
                                                 <a
                                                     target="_blank"
-                                                    href={`https://penguinmod.com/profile?user=${remixedProjectInfo.author}`}
+                                                    href={`https://pumod.com/profile?user=${remixedProjectInfo.author}`}
                                                 >
                                                     {remixedProjectInfo.author}
                                                 </a>
@@ -330,7 +285,7 @@ class Interface extends React.Component {
                             {extraProjectInfo.author && (
                                 <a
                                     target="_blank"
-                                    href={`https://penguinmod.com/profile?user=${extraProjectInfo.author}`}
+                                    href={`https://pm/profile?user=${extraProjectInfo.author}`}
                                 >
                                     View other projects by {extraProjectInfo.author}
                                 </a>
@@ -339,8 +294,8 @@ class Interface extends React.Component {
                                 <p>
                                     <FormattedMessage
                                         // eslint-disable-next-line max-len
-                                        defaultMessage="Dinosaurmod is a mod of Penguinmod that has added new blocks and features in extensions or in Dinosaurmod's main toolbox. Penguinmod is a cool mod of turbowarp where you can share your projects. TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by choosing an uploaded project below or making your own in the editor."
-                                        description="Description of PenguinMod and TurboWarp"
+                                        defaultMessage="Craftmod is a mod of Dinosaurmod that has added new blocks and features in extensions or in Craftmod's main toolbox. Dinosaurmod is a cool mod of turbowarp where you can share your projects. TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by choosing an uploaded project below or making your own in the editor."
+                                        description="Description of Dinosaurmod and TurboWarp"
                                         id="tw.home.description"
                                     />
                                 </p>
@@ -350,7 +305,7 @@ class Interface extends React.Component {
                             </div>
                             <a
                                 target="_blank"
-                                href="https://penguinmod.com/search?q=all:projects"
+                                href="https://nmod.com/search?q=all:projects"
                             >
                                 See more projects
                             </a>
