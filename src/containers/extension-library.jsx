@@ -56,8 +56,8 @@ class ExtensionLibrary extends React.PureComponent {
             this.props.onOpenCustomExtensionModal();
             return;
         }
-        if (extensionId === 'special_penguinmodExtensionLibrary') {
-            window.open('https://extensions.penguinmod.com/');
+        if (extensionId === 'special_pengodExtensionLibrary') {
+            window.open('https://extensions.penmod.com/');
             return;
         }
         const url = item.extensionURL ? item.extensionURL : extensionId;
