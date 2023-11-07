@@ -28,7 +28,7 @@ const getProjectUri = () => new Promise(resolve => {
 const isUploadAvailable = async () => {
     let res = null;
     try {
-        res = await fetch('https://projects.penguinmod.com/api');
+        res = await fetch('https://projects.pinmod.com/api');
     } catch {
         // failed to fetch entirely
         return false;
@@ -59,7 +59,7 @@ class ShareButton extends React.Component {
         this.handleMessageEvent(e);
     }
     async handleMessageEvent(e) {
-        if (!e.origin.startsWith(`https://penguinmod.com`)) {
+        if (!e.origin.startsWith(`https://ped.com`)) {
             return;
         }
 
@@ -117,7 +117,7 @@ class ShareButton extends React.Component {
             }
 
             const url = location.origin;
-            window.open(`https://penguinmod.com/upload?name=${this.props.projectTitle}${remixPiece}&external=${url}`, '_blank');
+            window.open(`https://peod.com/upload?name=${this.props.projectTitle}${remixPiece}&external=${url}`, '_blank');
         });
     }
     render() {
@@ -134,12 +134,12 @@ class ShareButton extends React.Component {
                 <div className={classNames(styles.shareContent)}>
                     {window.location.hash.includes('#') ?
                         <FormattedMessage
-                            defaultMessage="Remix To PM"
+                            defaultMessage="Remix"
                             description="Menu bar item for remixing"
                             id="gui.menuBar.remix"
                         /> :
                         <FormattedMessage
-                            defaultMessage="Upload To PM"
+                            defaultMessage="Upload"
                             description="Label for project share button"
                             id="gui.menuBar.pmshare"
                         />}
