@@ -16,7 +16,7 @@ const showSaveFilePicker = fileName => window.showSaveFilePicker({
             }
         },
         {
-            description: 'PenguinMod Project',
+            description: 'Mod Project',
             accept: {
                 'application/x.scratch.sb3': '.pmp'
             }
@@ -48,7 +48,7 @@ const showOpenFilePicker = async () => {
                 }
             },
             {
-                description: 'PenguinMod Project',
+                description: 'Mod Project',
                 accept: {
                     'application/x.scratch.sb3': ['.pmp', '.pm']
                 }
