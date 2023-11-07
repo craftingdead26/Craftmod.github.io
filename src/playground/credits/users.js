@@ -20,13 +20,13 @@ const fromHardcodedGithub = username => ({
     text: username
 });
 const fromHardcodedNamed = username => ({
-    image: `https://penguinmod.com/unknown_user.png`,
-    href: "https://studio.penguinmod.com/credits.html#",
+    image: `https://penm/unknown_user.png`,
+    href: "https://.com/credits.html#",
     text: username
 });
 
 const fromHardcodedDiscord = async userId => {
-    const res = await fetch(`https://pmupdatereader.jeremygamer13.repl.co/user/${userId}`);
+    const res = await fetch(`https://datereader.jeremygamer13.repl.co/user/${userId}`);
     const json = await res.json();
     return {
         image: json.avatarURL,
