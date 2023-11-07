@@ -1,1 +1,1 @@
-export const APP_NAME = 'DinosaurMod';
+export const APP_NAME = 'CraftMod';
