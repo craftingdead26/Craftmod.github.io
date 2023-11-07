@@ -71,9 +71,9 @@ class Interface extends React.Component {
     }
     handleUpdateProjectTitle(title, isDefault) {
         if (isDefault || !title) {
-            document.title = `DinosaurMod - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
+            document.title = `CraftMod - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
         } else {
-            document.title = `${title} - DinosaurMod`;
+            document.title = `${title} - CraftMod`;
         }
     }
     render() {
