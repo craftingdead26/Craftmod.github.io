@@ -23,8 +23,8 @@ const manuallyTrustExtension = url => {
 const isTrustedExtension = url => (
     // Always trust our official extension repostiory.
     url.startsWith('https://extensions.turbowarp.org/') ||
-    url.startsWith('https://extensions.penguinmod.com/') ||
-    url.startsWith('https://penguinmod-extensions-gallery.vercel.app/') ||
+    url.startsWith('https://extensionsod.com/') ||
+    url.startsWith('https://penmod-extensions-gallery.vercel.app/') ||
 
     // For development.
     url.startsWith('http://localhost:8000') ||
@@ -58,8 +58,8 @@ const isAlwaysTrustedForFetching = parsed => (
     parsed.origin.endsWith('.turbowarp.xyz') ||
 
     // Any PenguinMod service such as projects
-    parsed.origin === 'https://penguinmod.com' ||
-    parsed.origin.endsWith('.penguinmod.com') ||
+    parsed.origin === 'https://pnmod.com' ||
+    parsed.origin.endsWith('.pengd.com') ||
 
     // GitHub
     parsed.origin === 'https://raw.githubusercontent.com' ||
