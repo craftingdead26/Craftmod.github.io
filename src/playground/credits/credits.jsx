@@ -54,17 +54,17 @@ const Credits = () => (
     <main className={styles.main}>
         <header className={styles.headerContainer}>
             <h1 className={styles.headerText}>
-                DinosaurMod Credits
+                CraftMod Credits
             </h1>
         </header>
         <section>
-            <h1>Dinosaurmod</h1>
+            <h1>CraftMod</h1>
         </section>
         <section>
             <h2>Thank you</h2>
             <p>
-                Without Penguinmod, DinosaurMod may have never existed.
-                Thank you to everyone who worked on Scratch, TurboWarp & Penguinmod,
+                Without Dinosaurmod, CraftMod may have never existed.
+                Thank you to everyone who worked on Scratch, TurboWarp & Dinosaurmod,
                 you have made many people be able to make whatever they can imagine.
             </p>
             <a href="https://scratch.mit.edu/donate">
@@ -74,14 +74,9 @@ const Credits = () => (
             <a href="https://github.com/sponsors/GarboMuffin">
                 Donate to support TurboWarp.
             </a>
-            <br></br><br></br>
-            <a href="https://penguinmod.com/donate">
-                Donate to support PenguinMod.
-            </a>
             <h2>Contributors</h2>
             <p>
-                DinosaurMod is made by a small bunch of developers.
-                A list is below, but you can also check <a href="https://github.com/orgs/DinosaurMod/people">our GitHub</a> incase this one is out of date.
+                CraftMod is made by a Single Developer.
             </p>
             <UserList users={UserData.pmDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
@@ -98,19 +93,19 @@ const Credits = () => (
             </a>
             <h2>Sound Effects</h2>
             <p>
-                PenguinMod has added some more sounds to the Sound Library.
-                All PenguinMod sounds are
+                DinosaurMod has added some more sounds to the Sound Library.
+                All DinosaurMod sounds are
                 from <a href="https://freesound.org/">https://freesound.org/</a> and <a href="https://archive.org/">https://archive.org/</a> under
                 the Public Domain license.
             </p>
         </section>
         <section>
-            <h1>Dinosaurmod, PenguinMod & TurboWarp</h1>
+            <h1>Dinomod, DinosaurMod & TurboWarp</h1>
         </section>
         <section>
             <h2>Extensions</h2>
             <p><i>
-                If you are an extension developer who wants their extension removed from PenguinMod's extensions list,
+                If you are an extension developer who wants their extension removed from DinosaurMod's extensions list,
                 contact us as soon as you can. We'll get it removed as soon as we are able to.
             </i></p>
             <p>
@@ -122,7 +117,7 @@ const Credits = () => (
             <UserList users={UserData.extensionDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
             <p>
-                PenguinMod also has a few people who made and submitted extensions too!
+                DinosaurMod also has a few people who made and submitted extensions too!
                 This list may get outdated sometimes, but here they are listed below:
             </p>
             <UserList users={UserData.pmExtensionDevelopers} />
@@ -132,26 +127,16 @@ const Credits = () => (
             <h2>Addons</h2>
             <p>
                 Addons are mostly taken from <a href="https://scratchaddons.com/">Scratch Addons</a>,
-                but we hope to have some PenguinMod addons in the future.
+                but we hope to have some DinosaurMod addons in the future.
                 Here are the developers that made the current addons available.
             </p>
             <UserList users={UserData.addonDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
         </section>
         <section>
-            <h1>Penguinmod</h1>
+            <h1>DinosaurMod</h1>
         </section>
-        <section>
-            <p>
-                Penguinmod is made possible by the work of many volunteers and contributors.
-                <br></br>
-                You can check out Penguinmod's credits page <a href="https://studio.penguinmod.com/credits.html">here</a>.
-                <br></br>
-                <a href="https://penguinmod.com/donate">
-                    Donate to support Penguinmod.
-                </a>
-            </p>
-        </section>
+
         <section>
             <h1>TurboWarp</h1>
         </section>
